@@ -12,6 +12,9 @@
 	(dolist (file (directory-files init-dir))
 		(when (string-match-p "\\`[^.].*\\.elc?\\'" file)
 			(load-file (expand-file-name file init-dir)))))
+;; 4. Load experimental.el (it is loaded last to be able to
+;;    override settings from /init.d/)
+(load (expand-file-name "~/.emacs.d/experimental.el"))
 
 ;; File for storing customization information
 (setq custom-file "~/.emacs.d/init.d/custom.el")
