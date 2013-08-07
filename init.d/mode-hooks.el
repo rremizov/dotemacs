@@ -20,6 +20,9 @@
 (add-hook 'slime-repl-mode-hook (lambda () (paredit-mode +1)))
 (add-hook 'lisp-mode-hook
 	(lambda()
+		(set (make-local-variable lisp-indent-function)
+			'common-lisp-indent-function)
 		(setq tab-width 4)
+		(setq lisp-indent-offset 4)
 		(setq indent-tabs-mode t)))
 
