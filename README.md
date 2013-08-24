@@ -5,7 +5,7 @@ _using Emacs + SLIME and Steel Bank CL._
 __Install and configure Emacs__
 
 	sudo aptitude install emacs
-	git clone git://github.com/ceaseandrepent/dotemacs.git ~/dotemacs
+	git clone git://github.com/rremizov/dotemacs.git ~/dotemacs
 	cd ~/dotemacs && ./create-links.sh
 
 
