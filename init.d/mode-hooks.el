@@ -23,6 +23,5 @@
 		(set (make-local-variable lisp-indent-function)
 			'common-lisp-indent-function)
 		(setq tab-width 4)
-		(setq lisp-indent-offset 4)
-		(setq indent-tabs-mode t)))
+		(setq indent-tabs-mode nil)))
 
