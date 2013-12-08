@@ -6,12 +6,12 @@
 ;; 2. Load paredit
 (load (expand-file-name "~/.emacs.d/paredit.el"))
 (autoload 'enable-paredit-mode
-	"paredit" "Turn on pseudo-structural editing of Lisp code." t)
+          "paredit" "Turn on pseudo-structural editing of Lisp code." t)
 ;; 3. Load Emacs Lisp source code but hidden files
 (let ((init-dir "~/.emacs.d/init.d/"))
-	(dolist (file (directory-files init-dir))
-		(when (string-match-p "\\`[^.].*\\.elc?\\'" file)
-			(load-file (expand-file-name file init-dir)))))
+  (dolist (file (directory-files init-dir))
+    (when (string-match-p "\\`[^.].*\\.elc?\\'" file)
+      (load-file (expand-file-name file init-dir)))))
 ;; 4. Load experimental.el (it is loaded last to be able to
 ;;    override settings from /init.d/)
 (load (expand-file-name "~/.emacs.d/experimental.el"))
