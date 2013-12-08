@@ -16,6 +16,7 @@ Dependencies.
 *	[Steel Bank Common Lisp][sbcl]
 *	[quicklisp][quicklisp]
 *	[SLIME][slime]
+*	[Wanderlust][wanderlust]
 
 
 Installation.
@@ -61,4 +62,5 @@ __Go into Lisp shell, load `SLIME`__
 [sbcl]: http://www.sbcl.org/
 [slime]: http://common-lisp.net/project/slime/
 [solarized]: https://github.com/sellout/emacs-color-theme-solarized
+[wanderlust]: https://github.com/wanderlust/wanderlust
 
