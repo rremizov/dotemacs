@@ -1,3 +1,6 @@
 [submodule "linum-relative"]
 	path = linum-relative
 	url = https://github.com/coldnew/linum-relative
+[submodule "solarized"]
+	path = solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized
