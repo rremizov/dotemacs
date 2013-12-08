@@ -4,7 +4,7 @@
 					  '(tool-bar-mode nil))   ;; Hide toolbar
 
 ;; Relative line numbering
-(load (expand-file-name "~/.emacs.d/linum-relative.el"))
+(load (expand-file-name "~/.emacs.d/linum-relative/linum-relative.el"))
 (require 'linum-relative)
 (global-linum-mode 1)
 
