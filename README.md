@@ -17,6 +17,7 @@ Dependencies.
 *	[quicklisp][quicklisp]
 *	[SLIME][slime]
 *	[Wanderlust][wanderlust]
+	*	`gnutls-cli` (on Debian available as `gnutls-bin` package)
 
 
 Installation.
