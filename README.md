@@ -7,18 +7,22 @@ __Plugins:__
 *	[linum-relative][linum-relative]
 *	[paredit][paredit]
 *	[solarized][solarized]
+*	[twittering mode][twittering-mode]
 
 
 Dependencies.
 =============
 
 *	[Anonymous Pro fonts][anonymous-pro]
-*	[Steel Bank Common Lisp][sbcl]
-*	[quicklisp][quicklisp]
 *	[SLIME][slime]
+*	[Steel Bank Common Lisp][sbcl]
 *	[Wanderlust][wanderlust]
 	*	`gnutls-cli` (on Debian available as `gnutls-bin` package)
-
+*	[quicklisp][quicklisp]
+*	[twittering mode][twittering-mode]
+	*	`notify-send` (on Debian available as `libnotify-bin` package)
+	*	Other dependencies, described [here][twittering-mode].
+ 
 
 Installation.
 =============
@@ -63,5 +67,6 @@ __Go into Lisp shell, load `SLIME`__
 [sbcl]: http://www.sbcl.org/
 [slime]: http://common-lisp.net/project/slime/
 [solarized]: https://github.com/sellout/emacs-color-theme-solarized
+[twittering-mode]: https://github.com/hayamiz/twittering-mode/
 [wanderlust]: https://github.com/wanderlust/wanderlust
 
