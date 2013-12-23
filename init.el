@@ -39,7 +39,4 @@
 ;; ----------------
 ;; Disable startup message
 ;(setq inhibit-startup-message t)
-;; Cut and paste to the X clipboard
-;(setq x-select-enable-clipboard t)
-;; Paste at mouse pointer NOT at cursor
-;(setq mouse-yank-at-point t)
+
