@@ -1,7 +1,8 @@
 Emacs dotfiles.
 ===============
 
-__Plugins:__
+Plugins.
+--------
 
 *	[color-theme][color-theme]
 *	[linum-relative][linum-relative]
@@ -11,7 +12,7 @@ __Plugins:__
 
 
 Dependencies.
-=============
+-------------
 
 *	[Anonymous Pro fonts][anonymous-pro]
 *	[luakit][luakit]
@@ -26,7 +27,7 @@ Dependencies.
 
 
 Installation.
-=============
+-------------
 
 	git clone git://github.com/rremizov/dotemacs.git ~/.emacs.d
 	cd ~/.emacs.d
