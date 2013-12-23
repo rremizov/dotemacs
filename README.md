@@ -14,6 +14,7 @@ Dependencies.
 =============
 
 *	[Anonymous Pro fonts][anonymous-pro]
+*	[luakit][luakit]
 *	[SLIME][slime]
 *	[Steel Bank Common Lisp][sbcl]
 *	[Wanderlust][wanderlust]
@@ -22,7 +23,7 @@ Dependencies.
 *	[twittering mode][twittering-mode]
 	*	`notify-send` (on Debian available as `libnotify-bin` package)
 	*	Other dependencies, described [here][twittering-mode].
- 
+
 
 Installation.
 =============
@@ -62,6 +63,7 @@ __Go into Lisp shell, load `SLIME`__
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro
 [color-theme]: http://www.nongnu.org/color-theme/
 [linum-relative]: https://github.com/coldnew/linum-relative
+[luakit]: https://github.com/mason-larobina/luakit/
 [paredit]: http://mumble.net/~campbell/emacs/paredit.el
 [quicklisp]: http://www.quicklisp.org/
 [sbcl]: http://www.sbcl.org/
