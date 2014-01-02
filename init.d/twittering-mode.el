@@ -9,7 +9,7 @@
           (lambda ()
             (let ((n twittering-new-tweets-count))
               (start-process "twittering-notify" nil "notify-send"
-                             "-i" "/home/enlighter/.emacs.d/img/twitter.png"
+                             "-i" (expand-file-name "~/.emacs.d/img/twitter.png")
                              "New tweets"
                              (format "You have %d new tweet%s"
                                      n (if (> n 1) "s" ""))))))
