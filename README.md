@@ -6,6 +6,7 @@ Plugins.
 
 *	[color-theme][color-theme]
 *	[linum-relative][linum-relative]
+*	[multi-term][multi-term]
 *	[paredit][paredit]
 *	[solarized][solarized]
 *	[twittering mode][twittering-mode]
@@ -15,11 +16,12 @@ Dependencies.
 -------------
 
 *	[Anonymous Pro fonts][anonymous-pro]
-*	[luakit][luakit]
 *	[SLIME][slime]
 *	[Steel Bank Common Lisp][sbcl]
 *	[Wanderlust][wanderlust]
 	*	`gnutls-cli` (on Debian available as `gnutls-bin` package)
+*	[luakit][luakit]
+*	[multi-term][multi-term] requires `/bin/bash`
 *	[quicklisp][quicklisp]
 *	[twittering mode][twittering-mode]
 	*	`notify-send` (on Debian available as `libnotify-bin` package)
@@ -65,6 +67,7 @@ __Go into Lisp shell, load `SLIME`__
 [color-theme]: http://www.nongnu.org/color-theme/
 [linum-relative]: https://github.com/coldnew/linum-relative
 [luakit]: https://github.com/mason-larobina/luakit/
+[multi-term]: http://www.emacswiki.org/emacs/MultiTerm
 [paredit]: http://mumble.net/~campbell/emacs/paredit.el
 [quicklisp]: http://www.quicklisp.org/
 [sbcl]: http://www.sbcl.org/
