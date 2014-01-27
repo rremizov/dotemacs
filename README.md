@@ -6,6 +6,7 @@ Plugins.
 
 *	[color-theme][color-theme]
 *	[linum-relative][linum-relative]
+*	[markdown-mode][markdown-mode]
 *	[multi-term][multi-term]
 *	[paredit][paredit]
 *	[solarized][solarized]
@@ -67,6 +68,7 @@ __Go into Lisp shell, load `SLIME`__
 [color-theme]: http://www.nongnu.org/color-theme/
 [linum-relative]: https://github.com/coldnew/linum-relative
 [luakit]: https://github.com/mason-larobina/luakit/
+[markdown-mode]: http://www.emacswiki.org/emacs/MarkdownMode
 [multi-term]: http://www.emacswiki.org/emacs/MultiTerm
 [paredit]: http://mumble.net/~campbell/emacs/paredit.el
 [quicklisp]: http://www.quicklisp.org/
