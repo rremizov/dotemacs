@@ -7,3 +7,6 @@
 [submodule "bundle/twittering-mode"]
 	path = bundle/twittering-mode
 	url = https://github.com/hayamiz/twittering-mode.git
+[submodule "bundle/markdown-mode"]
+	path = bundle/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
