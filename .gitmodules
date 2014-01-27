@@ -1,9 +1,9 @@
-[submodule "linum-relative"]
-	path = linum-relative
-	url = https://github.com/coldnew/linum-relative
-[submodule "solarized"]
-	path = solarized
-	url = https://github.com/sellout/emacs-color-theme-solarized
-[submodule "twittering-mode"]
-	path = twittering-mode
-	url = https://github.com/hayamiz/twittering-mode/
+[submodule "bundle/linum-relative"]
+	path = bundle/linum-relative
+	url = https://github.com/coldnew/linum-relative.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized.git
+[submodule "bundle/twittering-mode"]
+	path = bundle/twittering-mode
+	url = https://github.com/hayamiz/twittering-mode.git
