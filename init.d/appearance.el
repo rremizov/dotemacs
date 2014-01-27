@@ -4,7 +4,7 @@
                       '(tool-bar-mode nil))   ;; Hide toolbar
 
 ;; Relative line numbering
-(load (expand-file-name "~/.emacs.d/linum-relative/linum-relative.el"))
+(load (expand-file-name "~/.emacs.d/bundle/linum-relative/linum-relative.el"))
 (require 'linum-relative)
 (global-linum-mode 1)
 
@@ -21,11 +21,11 @@
 ;; Solarized color theme
 ;; ---------------------
 ;; Load color theme "module"
-(add-to-list 'load-path "~/.emacs.d/color-theme/")
+(add-to-list 'load-path "~/.emacs.d/bundle/color-theme/")
 (require 'color-theme)
 (color-theme-initialize)
 ;; Solarized color theme itself
-(add-to-list 'load-path "~/.emacs.d/solarized/")
+(add-to-list 'load-path "~/.emacs.d/bundle/solarized/")
 (require 'color-theme-solarized)
 (color-theme-solarized-dark)
 

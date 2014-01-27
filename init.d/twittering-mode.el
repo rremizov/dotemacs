@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/twittering-mode/")
+(add-to-list 'load-path "~/.emacs.d/bundle/twittering-mode/")
 (require 'twittering-mode)
 (setq twittering-display-remaining t)
 (setq twittering-icon-mode t)
