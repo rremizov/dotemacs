@@ -1,0 +1,6 @@
+project_name: emacsrc
+project_root: ~/.emacs.d
+windows:
+  - ranger: ranger
+  - shell: ./pull && git st && ls -alh
+
