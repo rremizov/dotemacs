@@ -16,7 +16,7 @@
                     (getenv "HOME") "~" (or buffer-file-name "%b")))))
 
 ;; Font and it's size
-(set-face-attribute 'default nil :font "Anonymous Pro" :height 160)
+(set-face-attribute 'default nil :font "Anonymous Pro" :height 120)
 
 ;; Solarized color theme
 ;; ---------------------
