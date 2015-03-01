@@ -10,3 +10,6 @@
 [submodule "bundle/markdown-mode"]
 	path = bundle/markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
+[submodule "bundle/evil"]
+	path = bundle/evil
+	url = https://gitorious.org/evil/evil.git
