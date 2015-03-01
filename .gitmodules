@@ -16,3 +16,6 @@
 [submodule "bundle/zenburn"]
 	path = bundle/zenburn
 	url = https://github.com/bbatsov/zenburn-emacs.git
+[submodule "bundle/dash.el"]
+	path = bundle/dash.el
+	url = https://github.com/magnars/dash.el.git
