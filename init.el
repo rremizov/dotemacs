@@ -1,17 +1,18 @@
-;; INIT
-;; ----
 ;; Load slime-helper and sbcl
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "sbcl")
+
 ;; Load paredit
 (load (expand-file-name "~/.emacs.d/paredit.el"))
 (autoload 'enable-paredit-mode
           "paredit" "Turn on pseudo-structural editing of Lisp code." t)
+
 ;; Load Emacs Lisp source code but hidden files
 (let ((init-dir "~/.emacs.d/init.d/"))
   (dolist (file (directory-files init-dir))
     (when (string-match-p "\\`[^.].*\\.elc?\\'" file)
       (load-file (expand-file-name file init-dir)))))
+
 ;; Load experimental.el
 (load (expand-file-name "~/.emacs.d/experimental.el"))
 
