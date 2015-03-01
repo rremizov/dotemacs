@@ -11,6 +11,7 @@ Plugins.
 *	[markdown-mode][markdown-mode]
 *	[multi-term][multi-term]
 *	[paredit][paredit]
+*	[rich-minority][rich-minority]
 *	[solarized][solarized]
 *	[twittering mode][twittering-mode]
 *	[zenburn][zenburn]
@@ -77,6 +78,7 @@ __Go into Lisp shell, load `SLIME`__
 [multi-term]: http://www.emacswiki.org/emacs/MultiTerm
 [paredit]: http://mumble.net/~campbell/emacs/paredit.el
 [quicklisp]: http://www.quicklisp.org/
+[rich-minority]: https://github.com/Bruce-Connor/rich-minority.git
 [sbcl]: http://www.sbcl.org/
 [slime]: http://common-lisp.net/project/slime/
 [solarized]: https://github.com/sellout/emacs-color-theme-solarized

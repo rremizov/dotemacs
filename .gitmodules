@@ -19,3 +19,6 @@
 [submodule "bundle/dash.el"]
 	path = bundle/dash.el
 	url = https://github.com/magnars/dash.el.git
+[submodule "bundle/rich-minority"]
+	path = bundle/rich-minority
+	url = https://github.com/Bruce-Connor/rich-minority.git
