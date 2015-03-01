@@ -13,3 +13,6 @@
 [submodule "bundle/evil"]
 	path = bundle/evil
 	url = https://gitorious.org/evil/evil.git
+[submodule "bundle/zenburn"]
+	path = bundle/zenburn
+	url = https://github.com/bbatsov/zenburn-emacs.git

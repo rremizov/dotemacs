@@ -12,6 +12,7 @@ Plugins.
 *	[paredit][paredit]
 *	[solarized][solarized]
 *	[twittering mode][twittering-mode]
+*	[zenburn][zenburn]
 
 
 Dependencies.
@@ -79,4 +80,5 @@ __Go into Lisp shell, load `SLIME`__
 [solarized]: https://github.com/sellout/emacs-color-theme-solarized
 [twittering-mode]: https://github.com/hayamiz/twittering-mode/
 [wanderlust]: https://github.com/wanderlust/wanderlust
+[zenburn]: https://github.com/bbatsov/zenburn-emacs.git
 
