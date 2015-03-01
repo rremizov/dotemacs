@@ -5,6 +5,7 @@ Plugins.
 --------
 
 *	[color-theme][color-theme]
+*	[evil][evil]
 *	[linum-relative][linum-relative]
 *	[markdown-mode][markdown-mode]
 *	[multi-term][multi-term]
@@ -66,6 +67,7 @@ __Go into Lisp shell, load `SLIME`__
 
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro
 [color-theme]: http://www.nongnu.org/color-theme/
+[evil]: https://gitorious.org/evil/evil/
 [linum-relative]: https://github.com/coldnew/linum-relative
 [luakit]: https://github.com/mason-larobina/luakit/
 [markdown-mode]: http://www.emacswiki.org/emacs/MarkdownMode
