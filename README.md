@@ -12,6 +12,7 @@ Plugins.
 *	[multi-term][multi-term]
 *	[paredit][paredit]
 *	[rich-minority][rich-minority]
+*	[smart-mode-line][smart-mode-line]
 *	[solarized][solarized]
 *	[twittering mode][twittering-mode]
 *	[zenburn][zenburn]
@@ -81,6 +82,7 @@ __Go into Lisp shell, load `SLIME`__
 [rich-minority]: https://github.com/Bruce-Connor/rich-minority.git
 [sbcl]: http://www.sbcl.org/
 [slime]: http://common-lisp.net/project/slime/
+[smart-mode-line]: https://github.com/Bruce-Connor/smart-mode-line.git
 [solarized]: https://github.com/sellout/emacs-color-theme-solarized
 [twittering-mode]: https://github.com/hayamiz/twittering-mode/
 [wanderlust]: https://github.com/wanderlust/wanderlust

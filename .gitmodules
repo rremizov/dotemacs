@@ -22,3 +22,6 @@
 [submodule "bundle/rich-minority"]
 	path = bundle/rich-minority
 	url = https://github.com/Bruce-Connor/rich-minority.git
+[submodule "bundle/smart-mode-line"]
+	path = bundle/smart-mode-line
+	url = https://github.com/Bruce-Connor/smart-mode-line.git
