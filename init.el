@@ -3,7 +3,7 @@
 (setq inferior-lisp-program "sbcl")
 
 ;; Load paredit
-(load (expand-file-name "~/.emacs.d/paredit.el"))
+(load (expand-file-name "~/.emacs.d/bundle/paredit/paredit.el"))
 (autoload 'enable-paredit-mode
           "paredit" "Turn on pseudo-structural editing of Lisp code." t)
 

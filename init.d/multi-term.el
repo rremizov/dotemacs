@@ -1,4 +1,4 @@
-(load (expand-file-name "~/.emacs.d/multi-term.el"))
+(load (expand-file-name "~/.emacs.d/bundle/multi-term/multi-term.el"))
 (require 'multi-term)
 
 (defun last-term-buffer (l)
