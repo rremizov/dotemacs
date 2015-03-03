@@ -42,7 +42,7 @@ Installation.
 	git submodule init && git submodule update
 
 
-How to setup and configure Lisp environment
+How to setup and configure Common Lisp environment
 ===========================================
 _using Emacs + SLIME and Steel Bank CL._
 
