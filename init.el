@@ -7,6 +7,9 @@
 (autoload 'enable-paredit-mode
           "paredit" "Turn on pseudo-structural editing of Lisp code." t)
 
+;; Add plugins to load path
+(load (expand-file-name "~/.emacs.d/load-path.el"))
+
 ;; Load Emacs Lisp source code but hidden files
 (let ((init-dir "~/.emacs.d/init.d/"))
   (dolist (file (directory-files init-dir))
