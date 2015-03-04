@@ -25,3 +25,9 @@
 [submodule "bundle/smart-mode-line"]
 	path = bundle/smart-mode-line
 	url = https://github.com/Bruce-Connor/smart-mode-line.git
+[submodule "bundle/elscreen"]
+	path = bundle/elscreen
+	url = https://github.com/knu/elscreen
+[submodule "bundle/evil-tabs"]
+	path = bundle/evil-tabs
+	url = https://github.com/krisajenkins/evil-tabs.git

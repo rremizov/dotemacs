@@ -6,6 +6,8 @@ Plugins.
 
 *	[color-theme][color-theme]
 *	[dash.el][dash.el]
+*	[elscreen][elscreen]
+*	[evil-tabs][evil-tabs]
 *	[evil][evil]
 *	[linum-relative][linum-relative]
 *	[markdown-mode][markdown-mode]
@@ -72,6 +74,8 @@ __Go into Lisp shell, load `SLIME`__
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro
 [color-theme]: http://www.nongnu.org/color-theme/
 [dash.el]: https://github.com/magnars/dash.el.git
+[elscreen]: https://github.com/knu/elscreen.git
+[evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
 [linum-relative]: https://github.com/coldnew/linum-relative
 [luakit]: https://github.com/mason-larobina/luakit/
