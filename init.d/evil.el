@@ -1,5 +1,4 @@
 (require 'evil)
-(evil-mode 1)
 
 ;; Change cursor color depending on mode
 (setq evil-emacs-state-cursor '("#8faf9f" box))
@@ -9,3 +8,4 @@
 (setq evil-replace-state-cursor '("#BA7D77" box))
 (setq evil-operator-state-cursor '("#8faf9f" hollow))
 
+(evil-mode 1)

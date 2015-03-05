@@ -31,3 +31,6 @@
 [submodule "bundle/evil-tabs"]
 	path = bundle/evil-tabs
 	url = https://github.com/krisajenkins/evil-tabs.git
+[submodule "bundle/evil-leader"]
+	path = bundle/evil-leader
+	url = https://github.com/cofi/evil-leader.git
