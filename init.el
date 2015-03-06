@@ -29,7 +29,7 @@
 (icomplete-mode 1)
 
 ;; Delete trailing whitespaces before saving
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
+; (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Highlight parenthesis pairs
 (show-paren-mode 1)
@@ -41,5 +41,5 @@
 ;; DISABLED OPTIONS
 ;; ----------------
 ;; Disable startup message
-;(setq inhibit-startup-message t)
+; (setq inhibit-startup-message t)
 

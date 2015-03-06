@@ -15,3 +15,4 @@
  do (evil-set-initial-state mode state))
 
 (evil-mode 1)
+
