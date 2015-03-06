@@ -1,3 +1,9 @@
+;; Hide the startup messages
+(setq inhibit-splash-screen t
+      inhibit-startup-echo-area-message t
+      inhibit-startup-message t)
+
+
 (custom-set-variables '(column-number-mode t) ;; Display column number
                       '(scroll-bar-mode nil)  ;; Hide scroll bar
                       '(menu-bar-mode nil)    ;; Hide menu bar
