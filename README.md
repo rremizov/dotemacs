@@ -7,6 +7,7 @@ Plugins.
 *	[color-theme][color-theme]
 *	[dash.el][dash.el]
 *	[elscreen][elscreen]
+*	[evil-leader][evil-leader]
 *	[evil-tabs][evil-tabs]
 *	[evil][evil]
 *	[linum-relative][linum-relative]
@@ -75,6 +76,7 @@ __Go into Lisp shell, load `SLIME`__
 [color-theme]: http://www.nongnu.org/color-theme/
 [dash.el]: https://github.com/magnars/dash.el.git
 [elscreen]: https://github.com/knu/elscreen.git
+[evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
 [linum-relative]: https://github.com/coldnew/linum-relative
@@ -91,4 +93,3 @@ __Go into Lisp shell, load `SLIME`__
 [twittering-mode]: https://github.com/hayamiz/twittering-mode/
 [wanderlust]: https://github.com/wanderlust/wanderlust
 [zenburn]: https://github.com/bbatsov/zenburn-emacs.git
-
