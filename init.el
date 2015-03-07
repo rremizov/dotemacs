@@ -32,7 +32,7 @@
       "tabs"
 
       "markdown-mode"
-      ; "multi-term"
+      "multi-term"
       "org-mode"
       "twittering-mode"
       "wanderlust"
