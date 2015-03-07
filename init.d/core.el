@@ -15,3 +15,7 @@
 (setq calendar-week-start-day 1
       calendar-date-style 'iso)
 
+;; Semantic mode
+(semantic-mode 1)
+(setq semanticdb-default-save-directory "~/.emacs.d/local/semanticdb")
+
