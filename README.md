@@ -4,6 +4,7 @@ Emacs dotfiles.
 Plugins.
 --------
 
+*	[async][async]
 *	[auto-highlight-symbol][auto-highlight-symbol]
 *	[color-theme][color-theme]
 *	[dash.el][dash.el]
@@ -11,6 +12,7 @@ Plugins.
 *	[evil-leader][evil-leader]
 *	[evil-tabs][evil-tabs]
 *	[evil][evil]
+*	[helm][helm]
 *	[linum-relative][linum-relative]
 *	[markdown-mode][markdown-mode]
 *	[multi-term][multi-term]
@@ -43,7 +45,8 @@ Installation.
 
 	git clone git://github.com/rremizov/dotemacs.git ~/.emacs.d
 	cd ~/.emacs.d
-	git submodule init && git submodule update
+	./pull
+	./init
 
 
 How to setup and configure Common Lisp environment
@@ -74,6 +77,7 @@ __Go into Lisp shell, load `SLIME`__
 
 
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro
+[async]: https://github.com/jwiegley/emacs-async.git
 [auto-highlight-symbol]: https://github.com/gennad/auto-highlight-symbol.git
 [color-theme]: http://www.nongnu.org/color-theme/
 [dash.el]: https://github.com/magnars/dash.el.git
@@ -81,6 +85,7 @@ __Go into Lisp shell, load `SLIME`__
 [evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
+[helm]: https://github.com/emacs-helm/helm.git
 [linum-relative]: https://github.com/coldnew/linum-relative
 [luakit]: https://github.com/mason-larobina/luakit/
 [markdown-mode]: http://www.emacswiki.org/emacs/MarkdownMode

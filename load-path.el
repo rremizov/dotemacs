@@ -1,21 +1,30 @@
-;; Dependencies
-(add-to-list 'load-path "~/.emacs.d/bundle/dash.el/")
-(add-to-list 'load-path "~/.emacs.d/bundle/elscreen/")
-(add-to-list 'load-path "~/.emacs.d/bundle/rich-minority/")
-
 ;; Plugins
-(add-to-list 'load-path "~/.emacs.d/bundle/auto-highlight-symbol/")
-(add-to-list 'load-path "~/.emacs.d/bundle/evil-leader/")
-(add-to-list 'load-path "~/.emacs.d/bundle/evil-tabs/")
-(add-to-list 'load-path "~/.emacs.d/bundle/evil/")
-(add-to-list 'load-path "~/.emacs.d/bundle/linum-relative/")
-(add-to-list 'load-path "~/.emacs.d/bundle/markdown-mode/")
-(add-to-list 'load-path "~/.emacs.d/bundle/smart-mode-line/")
-(add-to-list 'load-path "~/.emacs.d/bundle/twittering-mode/")
-; (add-to-list 'load-path "~/.emacs.d/bundle/color-theme/")
-; (add-to-list 'load-path "~/.emacs.d/bundle/solarized/")
+(mapcar
+  (lambda (path) (add-to-list 'load-path path))
+  (mapcar
+    (lambda (name) (concat "~/.emacs.d/bundle/" name))
+    '("dash.el/"
+      "async/"
+      "elscreen/"
+      "rich-minority/"
+
+      "auto-highlight-symbol/"
+      "evil-leader/"
+      "evil-tabs/"
+      "evil/"
+      "helm/"
+      "linum-relative/"
+      "markdown-mode/"
+      "smart-mode-line/"
+      "twittering-mode/")))
+      ; "color-theme"
+      ; "solarized"
 
 ;; Themes
-(add-to-list 'custom-theme-load-path "~/.emacs.d/bundle/zenburn/")
-; (add-to-list 'custom-theme-load-path "~/.emacs.d/bundle/solarized")
+(mapcar
+  (lambda (path) (add-to-list 'custom-theme-load-path path))
+  (mapcar
+    (lambda (name) (concat "~/.emacs.d/bundle/" name))
+    '("zenburn/"
+      "solarized/")))
 

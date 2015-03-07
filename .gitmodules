@@ -37,3 +37,9 @@
 [submodule "bundle/auto-highlight-symbol"]
 	path = bundle/auto-highlight-symbol
 	url = https://github.com/gennad/auto-highlight-symbol.git
+[submodule "bundle/helm"]
+	path = bundle/helm
+	url = https://github.com/emacs-helm/helm.git
+[submodule "bundle/async"]
+	path = bundle/async
+	url = https://github.com/jwiegley/emacs-async.git

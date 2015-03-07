@@ -14,24 +14,27 @@
 (mapcar
   'load
   (mapcar
-	(lambda (file-name) (concat "~/.emacs.d/init.d/" file-name))
-	'("appearance.el"
-	  "autosaves-and-backups.el"
-	  "browse-url.el"
-	  "clipboard.el"
-	  "core.el"
-	  "custom.el"
-	  "hotkeys.el"
-	  "linum-off.el"
-	  "mode-hooks.el"
-	  "modeline.el"
-	  "tabs.el" 
-	  "markdown-mode.el"
-	  "multi-term.el"
-	  "org-mode.el"
-	  "twittering-mode.el"
-	  "wanderlust.el"
-	  "evil.el")))
+    (lambda (file-name) (concat "~/.emacs.d/init.d/" file-name ".el"))
+    '("appearance"
+      "autosaves-and-backups"
+      "browse-url"
+      "clipboard"
+      "core"
+      "custom"
+      "hotkeys"
+      "linum-off"
+      "mode-hooks"
+      "modeline"
+      "tabs"
+
+      "markdown-mode"
+      "multi-term"
+      "org-mode"
+      "twittering-mode"
+      "wanderlust"
+
+      "helm"
+      "evil")))
 
 ;; Load experimental.el
 (load (expand-file-name "~/.emacs.d/experimental.el"))
