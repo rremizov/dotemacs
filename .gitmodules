@@ -34,3 +34,6 @@
 [submodule "bundle/evil-leader"]
 	path = bundle/evil-leader
 	url = https://github.com/cofi/evil-leader.git
+[submodule "bundle/auto-highlight-symbol"]
+	path = bundle/auto-highlight-symbol
+	url = https://github.com/gennad/auto-highlight-symbol.git

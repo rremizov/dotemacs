@@ -10,36 +10,33 @@
 ;; Add plugins to load path
 (load (expand-file-name "~/.emacs.d/load-path.el"))
 
-;; Load Emacs Lisp source code but hidden files
-(let ((init-dir "~/.emacs.d/init.d/"))
-  (dolist (file (directory-files init-dir))
-    (when (string-match-p "\\`[^.].*\\.elc?\\'" file)
-      (load-file (expand-file-name file init-dir)))))
+;; Load init.d
+(mapcar
+  'load
+  (mapcar
+	(lambda (file-name) (concat "~/.emacs.d/init.d/" file-name))
+	'("appearance.el"
+	  "autosaves-and-backups.el"
+	  "browse-url.el"
+	  "clipboard.el"
+	  "core.el"
+	  "custom.el"
+	  "hotkeys.el"
+	  "linum-off.el"
+	  "mode-hooks.el"
+	  "modeline.el"
+	  "search.el"
+	  "tabs.el" 
+	  "markdown-mode.el"
+	  "multi-term.el"
+	  "org-mode.el"
+	  "twittering-mode.el"
+	  "wanderlust.el"
+	  "evil.el")))
 
 ;; Load experimental.el
 (load (expand-file-name "~/.emacs.d/experimental.el"))
 
 ;; File for storing customization information
 (setq custom-file "~/.emacs.d/init.d/custom.el")
-
-;; 'y' instead of 'yes'
-(fset 'yes-or-no-p 'y-or-n-p)
-
-;; Completion in mini-buffer
-(icomplete-mode 1)
-
-;; Delete trailing whitespaces before saving
-; (add-hook 'before-save-hook 'delete-trailing-whitespace)
-
-;; Highlight parenthesis pairs
-(show-paren-mode 1)
-
-;; Calendar
-(setq calendar-week-start-day 1
-      calendar-date-style 'iso)
-
-;; DISABLED OPTIONS
-;; ----------------
-;; Disable startup message
-; (setq inhibit-startup-message t)
 

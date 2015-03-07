@@ -3,6 +3,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ahs-idle-interval 0.5)
  '(column-number-mode t)
  '(custom-safe-themes
    (quote
@@ -17,6 +18,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ahs-face ((t (:underline t))))
+ '(ahs-plugin-defalt-face ((t (:underline t))))
  '(elscreen-tab-background-face ((t (:background "#3f3f3f"))))
  '(elscreen-tab-current-screen-face ((t (:background "#afd787" :foreground "black"))))
  '(elscreen-tab-other-screen-face ((t (:background "#3a3a3a" :foreground "Gray50")))))

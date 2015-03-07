@@ -4,6 +4,7 @@ Emacs dotfiles.
 Plugins.
 --------
 
+*	[auto-highlight-symbol][auto-highlight-symbol]
 *	[color-theme][color-theme]
 *	[dash.el][dash.el]
 *	[elscreen][elscreen]
@@ -73,6 +74,7 @@ __Go into Lisp shell, load `SLIME`__
 
 
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro
+[auto-highlight-symbol]: https://github.com/gennad/auto-highlight-symbol.git
 [color-theme]: http://www.nongnu.org/color-theme/
 [dash.el]: https://github.com/magnars/dash.el.git
 [elscreen]: https://github.com/knu/elscreen.git
@@ -93,3 +95,4 @@ __Go into Lisp shell, load `SLIME`__
 [twittering-mode]: https://github.com/hayamiz/twittering-mode/
 [wanderlust]: https://github.com/wanderlust/wanderlust
 [zenburn]: https://github.com/bbatsov/zenburn-emacs.git
+

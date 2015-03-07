@@ -9,11 +9,6 @@
                       '(menu-bar-mode nil)    ;; Hide menu bar
                       '(tool-bar-mode nil))   ;; Hide toolbar
 
-;; Relative line numbering
-(load (expand-file-name "~/.emacs.d/bundle/linum-relative/linum-relative.el"))
-(require 'linum-relative)
-(global-linum-mode 1)
-
 ;; Create a reasonable title bar
 (add-hook 'window-configuration-change-hook
           (lambda ()
@@ -23,6 +18,13 @@
 
 ;; Font and it's size
 (set-face-attribute 'default nil :font "Anonymous Pro" :height 120)
+
+;; Highlight parenthesis pairs
+(show-paren-mode 1)
+
+;; Highlight symbol under cursor
+(require 'auto-highlight-symbol)
+(global-auto-highlight-symbol-mode t)
 
 ;; Solarized color theme
 ;; =====================
