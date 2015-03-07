@@ -10,6 +10,10 @@
 ;; Add plugins to load path
 (load (expand-file-name "~/.emacs.d/load-path.el"))
 
+
+;; Load `after` macro
+(load (expand-file-name "~/.emacs.d/after.el"))
+
 ;; Load init.d
 (mapcar
   'load
@@ -28,7 +32,7 @@
       "tabs"
 
       "markdown-mode"
-      "multi-term"
+      ; "multi-term"
       "org-mode"
       "twittering-mode"
       "wanderlust"
