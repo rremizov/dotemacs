@@ -10,6 +10,7 @@
     ("c5a044ba03d43a725bd79700087dea813abcb6beb6be08c7eb3303ed90782482" "6a37be365d1d95fad2f4d185e51928c789ef7a4ccf17e7ca13ad63a8bf5b922f" default)))
  '(elscreen-tab-display-control nil)
  '(elscreen-tab-display-kill-screen nil)
+ '(eshell-history-file-name "/home/enlighter/.emacs.d/local/eshell/history")
  '(image-dired-dir "~/.emacs.d/local/image-dired")
  '(menu-bar-mode nil)
  '(recentf-save-file "~/.emacs.d/local/recentf")
