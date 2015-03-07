@@ -25,7 +25,6 @@
 	  "linum-off.el"
 	  "mode-hooks.el"
 	  "modeline.el"
-	  "search.el"
 	  "tabs.el" 
 	  "markdown-mode.el"
 	  "multi-term.el"
