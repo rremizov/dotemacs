@@ -4,14 +4,16 @@
   (mapcar
     (lambda (name) (concat "~/.emacs.d/bundle/" name))
     '("dash.el/"
-      "epl"
-      "pkg-info.el/"
-      "s.el/"
       "async/"
       "elscreen/"
+      "epl"
+      "makey"
+      "pkg-info.el/"
       "rich-minority/"
+      "s.el/"
 
       "auto-highlight-symbol/"
+      "discover-my-major/"
       "evil-leader/"
       "evil-tabs/"
       "evil/"

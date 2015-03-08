@@ -8,6 +8,7 @@ Plugins.
 *	[auto-highlight-symbol][auto-highlight-symbol]
 *	[color-theme][color-theme]
 *	[dash.el][dash.el]
+*	[discover-my-major][discover-my-major]
 *	[elscreen][elscreen]
 *	[epl][epl]
 *	[evil-leader][evil-leader]
@@ -15,6 +16,7 @@ Plugins.
 *	[evil][evil]
 *	[helm][helm]
 *	[linum-relative][linum-relative]
+*	[makey][makey]
 *	[markdown-mode][markdown-mode]
 *	[multi-term][multi-term]
 *	[paredit][paredit]
@@ -85,6 +87,7 @@ __Go into Lisp shell, load `SLIME`__
 [auto-highlight-symbol]: https://github.com/gennad/auto-highlight-symbol.git
 [color-theme]: http://www.nongnu.org/color-theme/
 [dash.el]: https://github.com/magnars/dash.el.git
+[discover-my-major]: https://github.com/steckerhalter/discover-my-major.git
 [elscreen]: https://github.com/knu/elscreen.git
 [epl]: https://github.com/cask/epl.git
 [evil-leader]: https://github.com/cofi/evil-leader.git
@@ -93,6 +96,7 @@ __Go into Lisp shell, load `SLIME`__
 [helm]: https://github.com/emacs-helm/helm.git
 [linum-relative]: https://github.com/coldnew/linum-relative
 [luakit]: https://github.com/mason-larobina/luakit/
+[makey]: https://github.com/mickeynp/makey.git
 [markdown-mode]: http://www.emacswiki.org/emacs/MarkdownMode
 [multi-term]: http://www.emacswiki.org/emacs/MultiTerm
 [paredit]: http://mumble.net/~campbell/emacs/paredit.el

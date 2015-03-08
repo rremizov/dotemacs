@@ -55,3 +55,9 @@
 [submodule "bundle/s.el"]
 	path = bundle/s.el
 	url = https://github.com/magnars/s.el.git
+[submodule "bundle/makey"]
+	path = bundle/makey
+	url = https://github.com/mickeynp/makey.git
+[submodule "bundle/discover-my-major"]
+	path = bundle/discover-my-major
+	url = https://github.com/steckerhalter/discover-my-major.git

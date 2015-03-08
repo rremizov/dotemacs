@@ -19,3 +19,5 @@
 (semantic-mode 1)
 (setq semanticdb-default-save-directory "~/.emacs.d/local/semanticdb")
 
+(require 'discover-my-major)
+
