@@ -38,6 +38,7 @@
       "wanderlust"
 
       "helm"
+      "projectile"
       "evil")))
 
 ;; Load experimental.el

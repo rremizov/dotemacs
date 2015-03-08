@@ -4,6 +4,9 @@
   (mapcar
     (lambda (name) (concat "~/.emacs.d/bundle/" name))
     '("dash.el/"
+      "epl"
+      "pkg-info.el/"
+      "s.el/"
       "async/"
       "elscreen/"
       "rich-minority/"
@@ -15,6 +18,7 @@
       "helm/"
       "linum-relative/"
       "markdown-mode/"
+      "projectile/"
       "smart-mode-line/"
       "twittering-mode/")))
       ; "color-theme"

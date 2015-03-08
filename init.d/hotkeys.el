@@ -12,3 +12,6 @@
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 
+;; Projectile
+(define-key evil-normal-state-map (kbd "C-p") 'helm-projectile)
+

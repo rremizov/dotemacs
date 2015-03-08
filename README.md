@@ -9,6 +9,7 @@ Plugins.
 *	[color-theme][color-theme]
 *	[dash.el][dash.el]
 *	[elscreen][elscreen]
+*	[epl][epl]
 *	[evil-leader][evil-leader]
 *	[evil-tabs][evil-tabs]
 *	[evil][evil]
@@ -17,7 +18,10 @@ Plugins.
 *	[markdown-mode][markdown-mode]
 *	[multi-term][multi-term]
 *	[paredit][paredit]
+*	[pkg-info][pkg-info]
+*	[projectile][projectile]
 *	[rich-minority][rich-minority]
+*	[s][s]
 *	[smart-mode-line][smart-mode-line]
 *	[solarized][solarized]
 *	[twittering mode][twittering-mode]
@@ -82,6 +86,7 @@ __Go into Lisp shell, load `SLIME`__
 [color-theme]: http://www.nongnu.org/color-theme/
 [dash.el]: https://github.com/magnars/dash.el.git
 [elscreen]: https://github.com/knu/elscreen.git
+[epl]: https://github.com/cask/epl.git
 [evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
@@ -91,8 +96,11 @@ __Go into Lisp shell, load `SLIME`__
 [markdown-mode]: http://www.emacswiki.org/emacs/MarkdownMode
 [multi-term]: http://www.emacswiki.org/emacs/MultiTerm
 [paredit]: http://mumble.net/~campbell/emacs/paredit.el
+[pkg-info]: https://github.com/lunaryorn/pkg-info.el.git
+[projectile]: https://github.com/bbatsov/projectile.git
 [quicklisp]: http://www.quicklisp.org/
 [rich-minority]: https://github.com/Bruce-Connor/rich-minority.git
+[s]: https://github.com/magnars/s.el.git
 [sbcl]: http://www.sbcl.org/
 [slime]: http://common-lisp.net/project/slime/
 [smart-mode-line]: https://github.com/Bruce-Connor/smart-mode-line.git

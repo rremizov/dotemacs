@@ -13,6 +13,7 @@
  '(eshell-history-file-name "/home/enlighter/.emacs.d/local/eshell/history")
  '(image-dired-dir "~/.emacs.d/local/image-dired")
  '(menu-bar-mode nil)
+ '(projectile-known-projects-file "/home/enlighter/.emacs.d/local/projectile-bookmarks.eld")
  '(recentf-save-file "~/.emacs.d/local/recentf")
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
