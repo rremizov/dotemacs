@@ -1,3 +1,5 @@
+(require 'discover-my-major)
+
 ;; Relative line numbering
 (require 'linum-relative)
 (global-linum-mode 1)
@@ -18,8 +20,6 @@
 ;; Semantic mode
 (semantic-mode 1)
 (setq semanticdb-default-save-directory "~/.emacs.d/local/semanticdb")
-
-(require 'discover-my-major)
 
 ;; Bookmarks
 (setq bookmark-default-file "~/.emacs.d/local/bookmarks"
