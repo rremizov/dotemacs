@@ -26,3 +26,13 @@
 (setq bookmark-default-file "~/.emacs.d/local/bookmarks"
       bookmark-save-flag 1)
 
+;; Scrolling
+(setq mouse-wheel-follow-mouse t
+      mouse-wheel-progressive-speed nil
+      mouse-wheel-scroll-amount '(3 ((shift) . 3) ((control) . nil))
+      redisplay-dont-pause t
+      scroll-conservatively 10000
+      scroll-margin 0
+      scroll-preserve-screen-position 1
+      scroll-step 1)
+
