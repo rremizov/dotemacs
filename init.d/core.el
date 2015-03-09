@@ -21,3 +21,7 @@
 
 (require 'discover-my-major)
 
+;; Bookmarks
+(setq bookmark-default-file "~/.emacs.d/local/bookmarks"
+      bookmark-save-flag 1)
+
