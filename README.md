@@ -14,6 +14,7 @@ Plugins.
 *	[evil-leader][evil-leader]
 *	[evil-tabs][evil-tabs]
 *	[evil][evil]
+*	[golden-ratio][golden-ratio]
 *	[helm-descbinds][helm-descbinds]
 *	[helm][helm]
 *	[linum-relative][linum-relative]
@@ -94,6 +95,7 @@ __Go into Lisp shell, load `SLIME`__
 [evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
+[golden-ratio]: https://github.com/roman/golden-ratio.el.git
 [helm-descbinds]: https://github.com/emacs-helm/helm-descbinds.git
 [helm]: https://github.com/emacs-helm/helm.git
 [linum-relative]: https://github.com/coldnew/linum-relative

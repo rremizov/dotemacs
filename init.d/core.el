@@ -1,4 +1,5 @@
 (require 'discover-my-major)
+(require 'golden-ratio)
 
 ;; Relative line numbering
 (require 'linum-relative)

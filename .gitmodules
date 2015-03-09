@@ -64,3 +64,6 @@
 [submodule "bundle/helm-descbinds"]
 	path = bundle/helm-descbinds
 	url = https://github.com/emacs-helm/helm-descbinds.git
+[submodule "bundle/golden-ratio"]
+	path = bundle/golden-ratio
+	url = https://github.com/roman/golden-ratio.el.git

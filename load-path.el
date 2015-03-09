@@ -17,6 +17,7 @@
       "evil"
       "evil-leader"
       "evil-tabs"
+      "golden-ratio"
       "helm"
       "helm-descbinds"
       "linum-relative"
