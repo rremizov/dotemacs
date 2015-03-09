@@ -8,3 +8,6 @@
 	  helm-imenu-fuzzy-match t
 	  helm-recentf-fuzzy-match t)
 
+(require 'helm-descbinds)
+(helm-descbinds-mode)
+

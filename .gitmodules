@@ -61,3 +61,6 @@
 [submodule "bundle/discover-my-major"]
 	path = bundle/discover-my-major
 	url = https://github.com/steckerhalter/discover-my-major.git
+[submodule "bundle/helm-descbinds"]
+	path = bundle/helm-descbinds
+	url = https://github.com/emacs-helm/helm-descbinds.git

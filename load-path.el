@@ -18,6 +18,7 @@
       "evil-leader"
       "evil-tabs"
       "helm"
+      "helm-descbinds"
       "linum-relative"
       "markdown-mode"
       "projectile"
