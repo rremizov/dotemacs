@@ -17,9 +17,11 @@
 (define-key evil-normal-state-map (kbd "C-p") 'helm-projectile)
 
 
-;; Evil
+;; --- Evil
+;; Use ESC to exit emacs mode
 (global-set-key [escape] 'evil-exit-emacs-state)
 
+;; Use "jk" to exit insert mode
 (define-key evil-insert-state-map "j" #'cofi/maybe-exit)
 (evil-define-command cofi/maybe-exit ()
   :repeat change
@@ -36,4 +38,12 @@
     (push 'escape unread-command-events))
        (t (setq unread-command-events (append unread-command-events
                           (list evt))))))))
+;; Use M-j and M-k instead of C-d and C-u
+(define-key evil-normal-state-map
+			(kbd "M-k")
+			(lambda () (interactive) (evil-scroll-up nil)))
+
+(define-key evil-normal-state-map
+			(kbd "M-j")
+			(lambda () (interactive) (evil-scroll-down nil)))
 
