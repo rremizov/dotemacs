@@ -39,6 +39,7 @@
        (t (setq unread-command-events (append unread-command-events
                           (list evt))))))))
 
+
 ;; Use C-j and C-k instead of C-d and C-u
 (define-key evil-normal-state-map
 			(kbd "C-k")
@@ -51,4 +52,8 @@
 
 ;; Switch between windows
 (define-key evil-normal-state-map (kbd "C-i") 'evil-window-next)
+(define-key evil-normal-state-map (kbd "M-h") 'evil-window-left)
+(define-key evil-normal-state-map (kbd "M-j") 'evil-window-down)
+(define-key evil-normal-state-map (kbd "M-k") 'evil-window-up)
+(define-key evil-normal-state-map (kbd "M-l") 'evil-window-right)
 
