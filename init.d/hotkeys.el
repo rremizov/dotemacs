@@ -57,3 +57,7 @@
 (define-key evil-normal-state-map (kbd "M-k") 'evil-window-up)
 (define-key evil-normal-state-map (kbd "M-l") 'evil-window-right)
 
+
+;; Ex
+(define-key evil-normal-state-map (kbd ";") 'evil-ex)
+
