@@ -25,3 +25,9 @@
       (message "%s" file)
       (delete-file file))))
 
+
+;; Restore cursor position when reopening files
+(require 'saveplace)
+(setq save-place-file "~/.emacs.d/local/saveplace")
+(setq-default save-place t)
+
