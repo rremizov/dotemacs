@@ -11,6 +11,7 @@
 (loop
  for (mode . state)
  in '((term-mode . emacs)
+      (org-mode . emacs)
       (dired-mode . emacs))
  do (evil-set-initial-state mode state))
 
