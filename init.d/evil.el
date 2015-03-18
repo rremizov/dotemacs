@@ -19,5 +19,5 @@
 (evil-mode 1)
 
 ;; Save buffer on exit from insert mode
-(add-hook 'evil-insert-state-exit-hook 'save-buffer)
+; (add-hook 'evil-insert-state-exit-hook 'save-buffer)
 
