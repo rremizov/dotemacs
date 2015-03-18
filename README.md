@@ -35,12 +35,12 @@ Plugins.
 Dependencies.
 -------------
 
+Emacs 24.4+
+
 *	[Anonymous Pro fonts][anonymous-pro]
 *	[SLIME][slime]
 *	[Steel Bank Common Lisp][sbcl]
 *	[Wanderlust][wanderlust]
-	*	`gnutls-cli` (on Debian available as `gnutls-bin` package)
-*	[luakit][luakit]
 *	[multi-term][multi-term] requires `/bin/bash`
 *	[quicklisp][quicklisp]
 *	[twittering mode][twittering-mode]

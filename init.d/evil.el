@@ -8,6 +8,7 @@
 (setq evil-replace-state-cursor '("#BA7D77" box))
 (setq evil-operator-state-cursor '("#8faf9f" hollow))
 
+;; Default evil-modes
 (loop
  for (mode . state)
  in '((term-mode . emacs)
@@ -16,4 +17,7 @@
  do (evil-set-initial-state mode state))
 
 (evil-mode 1)
+
+;; Save buffer on exit from insert mode
+(add-hook 'evil-insert-state-exit-hook 'save-buffer)
 
