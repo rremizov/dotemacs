@@ -31,3 +31,11 @@
 (setq save-place-file "~/.emacs.d/local/saveplace")
 (setq-default save-place t)
 
+
+;; Save on focus out
+(add-hook
+  'focus-out-hook
+  (lambda ()
+	(interactive)
+	(save-some-buffers t)))
+
