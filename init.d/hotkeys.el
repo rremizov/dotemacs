@@ -27,8 +27,8 @@
   :repeat change
   (interactive)
   (let ((modified (buffer-modified-p)))
-	(insert "j")
-	(let ((evt (read-event (format "Insert %c to exit insert state" ?k)
+    (insert "j")
+    (let ((evt (read-event (format "Insert %c to exit insert state" ?k)
                nil 0.5)))
       (cond
        ((null evt) (message ""))
@@ -42,12 +42,12 @@
 
 ;; Use C-j and C-k instead of C-d and C-u
 (define-key evil-normal-state-map
-			(kbd "C-k")
-			(lambda () (interactive) (evil-scroll-up nil)))
+            (kbd "C-k")
+            (lambda () (interactive) (evil-scroll-up nil)))
 
 (define-key evil-normal-state-map
-			(kbd "C-j")
-			(lambda () (interactive) (evil-scroll-down nil)))
+            (kbd "C-j")
+            (lambda () (interactive) (evil-scroll-down nil)))
 
 
 ;; Switch between windows
@@ -64,4 +64,14 @@
 
 ;; Magit
 (evil-leader/set-key (kbd "gs") 'magit-status)
+
+
+;; Git gutter
+(eval-after-load 'git-gutter+
+  '(progn
+     (define-key git-gutter+-mode-map (kbd "[c") 'git-gutter+-previous-hunk)
+     (define-key git-gutter+-mode-map (kbd "]c") 'git-gutter+-next-hunk)
+     (evil-leader/set-key (kbd "gc") 'git-gutter+-commit)
+     (evil-leader/set-key (kbd "hr") 'git-gutter+-revert-hunks)
+     (evil-leader/set-key (kbd "hs") 'git-gutter+-stage-hunks)))
 
