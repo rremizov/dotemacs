@@ -36,6 +36,7 @@
       "org-mode"
       "twittering-mode"
       "wanderlust"
+      "magit"
 
       "helm"
       "projectile"

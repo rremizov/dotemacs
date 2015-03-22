@@ -14,10 +14,12 @@ Plugins.
 *	[evil-leader][evil-leader]
 *	[evil-tabs][evil-tabs]
 *	[evil][evil]
+*	[git-modes][git-modes]
 *	[golden-ratio][golden-ratio]
 *	[helm-descbinds][helm-descbinds]
 *	[helm][helm]
 *	[linum-relative][linum-relative]
+*	[magit][magit]
 *	[makey][makey]
 *	[markdown-mode][markdown-mode]
 *	[multi-term][multi-term]
@@ -95,11 +97,13 @@ __Go into Lisp shell, load `SLIME`__
 [evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
+[git-modes]: https://github.com/magit/git-modes.git
 [golden-ratio]: https://github.com/roman/golden-ratio.el.git
 [helm-descbinds]: https://github.com/emacs-helm/helm-descbinds.git
 [helm]: https://github.com/emacs-helm/helm.git
 [linum-relative]: https://github.com/coldnew/linum-relative
 [luakit]: https://github.com/mason-larobina/luakit/
+[magit]: https://github.com/magit/magit.git
 [makey]: https://github.com/mickeynp/makey.git
 [markdown-mode]: http://www.emacswiki.org/emacs/MarkdownMode
 [multi-term]: http://www.emacswiki.org/emacs/MultiTerm

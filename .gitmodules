@@ -67,3 +67,9 @@
 [submodule "bundle/golden-ratio"]
 	path = bundle/golden-ratio
 	url = https://github.com/roman/golden-ratio.el.git
+[submodule "bundle/git-modes"]
+	path = bundle/git-modes
+	url = https://github.com/magit/git-modes.git
+[submodule "bundle/magit"]
+	path = bundle/magit
+	url = https://github.com/magit/magit.git
