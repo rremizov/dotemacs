@@ -14,6 +14,9 @@ Plugins.
 *	[evil-leader][evil-leader]
 *	[evil-tabs][evil-tabs]
 *	[evil][evil]
+*	[fringe-helper.el][fringe-helper.el]
+*	[git-gutter-fringe-plus][git-gutter-fringe-plus]
+*	[git-gutter-plus][fringe-helper.el]
 *	[git-modes][git-modes]
 *	[golden-ratio][golden-ratio]
 *	[helm-descbinds][helm-descbinds]
@@ -97,6 +100,9 @@ __Go into Lisp shell, load `SLIME`__
 [evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
+[fringe-helper.el]: https://github.com/nschum/fringe-helper.el.git
+[git-gutter-fringe-plus]: https://github.com/nonsequitur/git-gutter-fringe-plus.git
+[git-gutter-plus]: https://github.com/nonsequitur/git-gutter-plus.git
 [git-modes]: https://github.com/magit/git-modes.git
 [golden-ratio]: https://github.com/roman/golden-ratio.el.git
 [helm-descbinds]: https://github.com/emacs-helm/helm-descbinds.git

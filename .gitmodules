@@ -73,3 +73,12 @@
 [submodule "bundle/magit"]
 	path = bundle/magit
 	url = https://github.com/magit/magit.git
+[submodule "bundle/fringe-helper.el"]
+	path = bundle/fringe-helper.el
+	url = https://github.com/nschum/fringe-helper.el.git
+[submodule "bundle/git-gutter-fringe-plus"]
+	path = bundle/git-gutter-fringe-plus
+	url = https://github.com/nonsequitur/git-gutter-fringe-plus.git
+[submodule "bundle/git-gutter-plus"]
+	path = bundle/git-gutter-plus
+	url = https://github.com/nonsequitur/git-gutter-plus.git
