@@ -61,3 +61,7 @@
 ;; Ex
 (define-key evil-normal-state-map (kbd ";") 'evil-ex)
 
+
+;; Magit
+(evil-leader/set-key (kbd "gs") 'magit-status)
+
