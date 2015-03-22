@@ -22,3 +22,19 @@
 ;; Save buffer on exit from insert mode
 ; (add-hook 'evil-insert-state-exit-hook 'save-buffer)
 
+
+;; Change mode-line color by evil state
+(lexical-let ((default-color
+                (cons (face-background 'mode-line)
+                      (face-foreground 'mode-line))))
+
+     (add-hook 'post-command-hook
+               (lambda ()
+                 (let ((color (cond ((minibufferp) default-color)
+                                    ((evil-insert-state-p) '("#434443" . "#ffffff"))
+                                    ((evil-emacs-state-p) '("#434443" . "#ffffff"))
+                                    ((buffer-modified-p) '("#434443" . "#ffffff"))
+                                    (t default-color))))
+                   (set-face-background 'mode-line (car color))
+                   (set-face-foreground 'mode-line (cdr color))))))
+
