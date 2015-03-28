@@ -17,7 +17,9 @@
  '(projectile-known-projects-file "/home/enlighter/.emacs.d/local/projectile-bookmarks.eld")
  '(recentf-save-file "~/.emacs.d/local/recentf")
  '(scroll-bar-mode nil)
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(undo-tree-auto-save-history t)
+ '(undo-tree-history-directory-alist (quote (("" . "~/.emacs.d/local/undo/")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

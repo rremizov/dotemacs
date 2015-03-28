@@ -36,3 +36,9 @@
       scroll-preserve-screen-position 1
       scroll-step 1)
 
+
+;; Undo tree
+(require 'undo-tree)
+(global-undo-tree-mode 1)
+(defalias 'redo 'undo-tree-redo)
+

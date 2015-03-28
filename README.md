@@ -38,6 +38,7 @@ Plugins.
 *	[smart-mode-line][smart-mode-line]
 *	[solarized][solarized]
 *	[twittering mode][twittering-mode]
+*	[undo-tree][undo-tree]
 *	[zenburn][zenburn]
 
 
@@ -132,6 +133,7 @@ __Go into Lisp shell, load `SLIME`__
 [smart-mode-line]: https://github.com/Bruce-Connor/smart-mode-line.git
 [solarized]: https://github.com/sellout/emacs-color-theme-solarized
 [twittering-mode]: https://github.com/hayamiz/twittering-mode/
+[undo-tree]: http://www.dr-qubit.org/undo-tree/undo-tree-0.6.4.el
 [wanderlust]: https://github.com/wanderlust/wanderlust
 [zenburn]: https://github.com/bbatsov/zenburn-emacs.git
 

@@ -33,7 +33,8 @@
       "markdown-mode"
       "projectile"
       "smart-mode-line"
-      "twittering-mode")))
+      "twittering-mode"
+      "undo-tree")))
       ; "color-theme"
       ; "solarized"
 
