@@ -94,3 +94,6 @@
 [submodule "bundle/evil-surround"]
 	path = bundle/evil-surround
 	url = https://github.com/timcharper/evil-surround.git
+[submodule "bundle/evil-matchit"]
+	path = bundle/evil-matchit
+	url = https://github.com/redguardtoo/evil-matchit.git

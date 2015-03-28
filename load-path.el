@@ -19,6 +19,7 @@
       "discover-my-major"
       "evil"
       "evil-leader"
+      "evil-matchit"
       "evil-numbers"
       "evil-snipe"
       "evil-surround"

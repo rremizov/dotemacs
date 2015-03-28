@@ -1,6 +1,7 @@
 Emacs dotfiles.
 ===============
 
+
 Plugins.
 --------
 
@@ -13,6 +14,7 @@ Plugins.
 *	[elscreen][elscreen]
 *	[epl][epl]
 *	[evil-leader][evil-leader]
+*	[evil-matchit][evil-matchit]
 *	[evil-numbers][evil-numbers]
 *	[evil-snipe][evil-snipe]
 *	[evil-surround][evil-surround]
@@ -104,6 +106,7 @@ __Go into Lisp shell, load `SLIME`__
 [elscreen]: https://github.com/knu/elscreen.git
 [epl]: https://github.com/cask/epl.git
 [evil-leader]: https://github.com/cofi/evil-leader.git
+[evil-matchit]: https://github.com/redguardtoo/evil-matchit.git
 [evil-numbers]: https://github.com/cofi/evil-numbers.git
 [evil-snipe]: https://github.com/hlissner/evil-snipe.git
 [evil-surround]: https://github.com/timcharper/evil-surround.git

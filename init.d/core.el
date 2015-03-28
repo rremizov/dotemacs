@@ -42,3 +42,8 @@
 (global-undo-tree-mode 1)
 (defalias 'redo 'undo-tree-redo)
 
+
+;; Matchit
+(require 'evil-matchit)
+(global-evil-matchit-mode 1)
+
