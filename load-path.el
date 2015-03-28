@@ -21,6 +21,7 @@
       "evil-leader"
       "evil-numbers"
       "evil-snipe"
+      "evil-surround"
       "evil-tabs"
       "git-gutter-fringe-plus"
       "git-gutter-plus"

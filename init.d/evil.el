@@ -52,3 +52,8 @@
       evil-snipe-enable-highlight t
       evil-snipe-enable-incremental-highlight t)
 
+
+;; Surround
+(require 'evil-surround)
+(global-evil-surround-mode 1)
+

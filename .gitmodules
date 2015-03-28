@@ -91,3 +91,6 @@
 [submodule "bundle/evil-numbers"]
 	path = bundle/evil-numbers
 	url = https://github.com/cofi/evil-numbers.git
+[submodule "bundle/evil-surround"]
+	path = bundle/evil-surround
+	url = https://github.com/timcharper/evil-surround.git
