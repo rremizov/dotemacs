@@ -75,3 +75,9 @@
      (evil-leader/set-key (kbd "hr") 'git-gutter+-revert-hunks)
      (evil-leader/set-key (kbd "hs") 'git-gutter+-stage-hunks)))
 
+
+;; Ace
+(require 'ace-jump-mode)
+(setq ace-jump-word-mode-use-query-char nil)
+(define-key evil-normal-state-map (kbd "W") 'evil-ace-jump-word-mode)
+

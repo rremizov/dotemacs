@@ -14,6 +14,7 @@
       "rich-minority"
       "s.el"
 
+      "ace-jump-mode"
       "auto-highlight-symbol"
       "discover-my-major"
       "evil"

@@ -4,6 +4,7 @@ Emacs dotfiles.
 Plugins.
 --------
 
+*	[ace-jump-mode][ace-jump-mode]
 *	[async][async]
 *	[auto-highlight-symbol][auto-highlight-symbol]
 *	[color-theme][color-theme]
@@ -89,6 +90,7 @@ __Go into Lisp shell, load `SLIME`__
 	(ql:quickload "quicklisp-slime-helper")
 
 
+[ace-jump-mode]: https://github.com/winterTTr/ace-jump-mode.git
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro
 [async]: https://github.com/jwiegley/emacs-async.git
 [auto-highlight-symbol]: https://github.com/gennad/auto-highlight-symbol.git
