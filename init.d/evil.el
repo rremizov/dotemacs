@@ -38,3 +38,17 @@
                    (set-face-background 'mode-line (car color))
                    (set-face-foreground 'mode-line (cdr color))))))
 
+
+;; Snipe
+(require 'evil-snipe)
+(global-evil-snipe-mode 1)
+
+(setq evil-snipe-smart-case t
+      evil-snipe-override-evil t
+      evil-snipe-repeat-keys t
+      evil-snipe-scope 'visible
+      evil-snipe-repeat-scope 'whole-visible
+      evil-snipe-count-scope nil
+      evil-snipe-enable-highlight t
+      evil-snipe-enable-incremental-highlight t)
+

@@ -85,3 +85,6 @@
 [submodule "bundle/ace-jump-mode"]
 	path = bundle/ace-jump-mode
 	url = https://github.com/winterTTr/ace-jump-mode.git
+[submodule "bundle/evil-snipe"]
+	path = bundle/evil-snipe
+	url = https://github.com/hlissner/evil-snipe.git

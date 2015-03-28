@@ -13,6 +13,7 @@ Plugins.
 *	[elscreen][elscreen]
 *	[epl][epl]
 *	[evil-leader][evil-leader]
+*	[evil-snipe][evil-snipe]
 *	[evil-tabs][evil-tabs]
 *	[evil][evil]
 *	[fringe-helper.el][fringe-helper.el]
@@ -100,6 +101,7 @@ __Go into Lisp shell, load `SLIME`__
 [elscreen]: https://github.com/knu/elscreen.git
 [epl]: https://github.com/cask/epl.git
 [evil-leader]: https://github.com/cofi/evil-leader.git
+[evil-snipe]: https://github.com/hlissner/evil-snipe.git
 [evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
 [fringe-helper.el]: https://github.com/nschum/fringe-helper.el.git

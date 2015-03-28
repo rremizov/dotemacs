@@ -19,6 +19,7 @@
       "discover-my-major"
       "evil"
       "evil-leader"
+      "evil-snipe"
       "evil-tabs"
       "git-gutter-fringe-plus"
       "git-gutter-plus"
