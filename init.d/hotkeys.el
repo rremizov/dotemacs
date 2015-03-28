@@ -79,7 +79,7 @@
 ;; Ace
 (require 'ace-jump-mode)
 (setq ace-jump-word-mode-use-query-char nil)
-(define-key evil-normal-state-map (kbd "W") 'evil-ace-jump-word-mode)
+(define-key evil-normal-state-map (kbd "M-j") 'evil-ace-jump-word-mode)
 
 
 ;; Numbers
