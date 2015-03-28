@@ -88,3 +88,6 @@
 [submodule "bundle/evil-snipe"]
 	path = bundle/evil-snipe
 	url = https://github.com/hlissner/evil-snipe.git
+[submodule "bundle/evil-numbers"]
+	path = bundle/evil-numbers
+	url = https://github.com/cofi/evil-numbers.git

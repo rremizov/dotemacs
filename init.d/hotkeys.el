@@ -81,3 +81,9 @@
 (setq ace-jump-word-mode-use-query-char nil)
 (define-key evil-normal-state-map (kbd "W") 'evil-ace-jump-word-mode)
 
+
+;; Numbers
+(require 'evil-numbers)
+(define-key evil-normal-state-map (kbd "C-=") 'evil-numbers/inc-at-pt)
+(define-key evil-normal-state-map (kbd "C--") 'evil-numbers/dec-at-pt)
+
