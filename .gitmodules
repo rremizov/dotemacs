@@ -103,3 +103,18 @@
 [submodule "bundle/auto-complete"]
 	path = bundle/auto-complete
 	url = https://github.com/auto-complete/auto-complete.git
+[submodule "bundle/emacs-ctable"]
+	path = bundle/emacs-ctable
+	url = https://github.com/kiwanami/emacs-ctable.git
+[submodule "bundle/emacs-deferred"]
+	path = bundle/emacs-deferred
+	url = https://github.com/kiwanami/emacs-deferred.git
+[submodule "bundle/emacs-epc"]
+	path = bundle/emacs-epc
+	url = https://github.com/kiwanami/emacs-epc.git
+[submodule "bundle/emacs-python-environment"]
+	path = bundle/emacs-python-environment
+	url = https://github.com/tkf/emacs-python-environment.git
+[submodule "bundle/emacs-jedi"]
+	path = bundle/emacs-jedi
+	url = https://github.com/tkf/emacs-jedi.git

@@ -13,6 +13,11 @@ Plugins.
 *	[dash.el][dash.el]
 *	[discover-my-major][discover-my-major]
 *	[elscreen][elscreen]
+*	[emacs-ctable][emacs-ctable]
+*	[emacs-deferred][emacs-deferred]
+*	[emacs-epc][emacs-epc]
+*	[emacs-jedi][emacs-jedi]
+*	[emacs-python-environment][emacs-python-environment]
 *	[epl][epl]
 *	[evil-leader][evil-leader]
 *	[evil-matchit][evil-matchit]
@@ -107,6 +112,11 @@ __Go into Lisp shell, load `SLIME`__
 [dash.el]: https://github.com/magnars/dash.el.git
 [discover-my-major]: https://github.com/steckerhalter/discover-my-major.git
 [elscreen]: https://github.com/knu/elscreen.git
+[emacs-ctable]: https://github.com/kiwanami/emacs-ctable.git
+[emacs-deferred]: https://github.com/kiwanami/emacs-deferred.git
+[emacs-epc]: https://github.com/kiwanami/emacs-epc.git
+[emacs-jedi]: https://github.com/tkf/emacs-jedi.git
+[emacs-python-environment]: https://github.com/tkf/emacs-python-environment.git
 [epl]: https://github.com/cask/epl.git
 [evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-matchit]: https://github.com/redguardtoo/evil-matchit.git
