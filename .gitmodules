@@ -118,3 +118,15 @@
 [submodule "bundle/emacs-jedi"]
 	path = bundle/emacs-jedi
 	url = https://github.com/tkf/emacs-jedi.git
+[submodule "bundle/elisp-json-rpc"]
+	path = bundle/elisp-json-rpc
+	url = https://github.com/skeeto/elisp-json-rpc.git
+[submodule "bundle/f.el"]
+	path = bundle/f.el
+	url = https://github.com/rejeep/f.el.git
+[submodule "bundle/ac-anaconda"]
+	path = bundle/ac-anaconda
+	url = https://github.com/proofit404/ac-anaconda.git
+[submodule "bundle/anaconda-mode"]
+	path = bundle/anaconda-mode
+	url = https://github.com/proofit404/anaconda-mode.git

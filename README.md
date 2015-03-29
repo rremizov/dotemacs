@@ -5,13 +5,16 @@ Emacs dotfiles.
 Plugins.
 --------
 
+*	[ac-anaconda][ac-anaconda]
 *	[ace-jump-mode][ace-jump-mode]
+*	[anaconda-mode][anaconda-mode]
 *	[async][async]
 *	[auto-complete][auto-complete]
 *	[auto-highlight-symbol][auto-highlight-symbol]
 *	[color-theme][color-theme]
 *	[dash.el][dash.el]
 *	[discover-my-major][discover-my-major]
+*	[elisp-json-rpc][elisp-json-rpc]
 *	[elscreen][elscreen]
 *	[emacs-ctable][emacs-ctable]
 *	[emacs-deferred][emacs-deferred]
@@ -26,6 +29,7 @@ Plugins.
 *	[evil-surround][evil-surround]
 *	[evil-tabs][evil-tabs]
 *	[evil][evil]
+*	[f.el][f.el]
 *	[fringe-helper.el][fringe-helper.el]
 *	[git-gutter-fringe-plus][git-gutter-fringe-plus]
 *	[git-gutter-plus][fringe-helper.el]
@@ -103,7 +107,9 @@ __Go into Lisp shell, load `SLIME`__
 	(ql:quickload "quicklisp-slime-helper")
 
 
+[ac-anaconda]: https://github.com/proofit404/ac-anaconda.git
 [ace-jump-mode]: https://github.com/winterTTr/ace-jump-mode.git
+[anaconda-mode]: https://github.com/proofit404/anaconda-mode.git
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro
 [async]: https://github.com/jwiegley/emacs-async.git
 [auto-complete]: https://github.com/auto-complete/auto-complete.git
@@ -111,6 +117,7 @@ __Go into Lisp shell, load `SLIME`__
 [color-theme]: http://www.nongnu.org/color-theme/
 [dash.el]: https://github.com/magnars/dash.el.git
 [discover-my-major]: https://github.com/steckerhalter/discover-my-major.git
+[elisp-json-rpc]: https://github.com/skeeto/elisp-json-rpc.git
 [elscreen]: https://github.com/knu/elscreen.git
 [emacs-ctable]: https://github.com/kiwanami/emacs-ctable.git
 [emacs-deferred]: https://github.com/kiwanami/emacs-deferred.git
@@ -125,6 +132,7 @@ __Go into Lisp shell, load `SLIME`__
 [evil-surround]: https://github.com/timcharper/evil-surround.git
 [evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
+[f.el]: https://github.com/rejeep/f.el.git
 [fringe-helper.el]: https://github.com/nschum/fringe-helper.el.git
 [git-gutter-fringe-plus]: https://github.com/nonsequitur/git-gutter-fringe-plus.git
 [git-gutter-plus]: https://github.com/nonsequitur/git-gutter-plus.git
