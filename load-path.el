@@ -11,10 +11,12 @@
       "git-modes"
       "makey"
       "pkg-info.el"
+      "popup-el"
       "rich-minority"
       "s.el"
 
       "ace-jump-mode"
+      "auto-complete"
       "auto-highlight-symbol"
       "discover-my-major"
       "evil"

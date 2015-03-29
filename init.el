@@ -29,6 +29,7 @@
       "linum-off"
       "mode-hooks"
       "modeline"
+      "packages"
       "tabs"
 
       "markdown-mode"
@@ -38,6 +39,7 @@
       "wanderlust"
       "magit"
 
+      "autocomplete"
       "helm"
       "projectile"
       "evil")))

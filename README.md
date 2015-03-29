@@ -7,6 +7,7 @@ Plugins.
 
 *	[ace-jump-mode][ace-jump-mode]
 *	[async][async]
+*	[auto-complete][auto-complete]
 *	[auto-highlight-symbol][auto-highlight-symbol]
 *	[color-theme][color-theme]
 *	[dash.el][dash.el]
@@ -34,6 +35,7 @@ Plugins.
 *	[multi-term][multi-term]
 *	[paredit][paredit]
 *	[pkg-info][pkg-info]
+*	[popup-el][popup-el]
 *	[projectile][projectile]
 *	[rich-minority][rich-minority]
 *	[s][s]
@@ -99,6 +101,7 @@ __Go into Lisp shell, load `SLIME`__
 [ace-jump-mode]: https://github.com/winterTTr/ace-jump-mode.git
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro
 [async]: https://github.com/jwiegley/emacs-async.git
+[auto-complete]: https://github.com/auto-complete/auto-complete.git
 [auto-highlight-symbol]: https://github.com/gennad/auto-highlight-symbol.git
 [color-theme]: http://www.nongnu.org/color-theme/
 [dash.el]: https://github.com/magnars/dash.el.git
@@ -127,6 +130,7 @@ __Go into Lisp shell, load `SLIME`__
 [multi-term]: http://www.emacswiki.org/emacs/MultiTerm
 [paredit]: http://mumble.net/~campbell/emacs/paredit.el
 [pkg-info]: https://github.com/lunaryorn/pkg-info.el.git
+[popup-el]: https://github.com/auto-complete/popup-el.git
 [projectile]: https://github.com/bbatsov/projectile.git
 [quicklisp]: http://www.quicklisp.org/
 [rich-minority]: https://github.com/Bruce-Connor/rich-minority.git

@@ -97,3 +97,9 @@
 [submodule "bundle/evil-matchit"]
 	path = bundle/evil-matchit
 	url = https://github.com/redguardtoo/evil-matchit.git
+[submodule "bundle/popup-el"]
+	path = bundle/popup-el
+	url = https://github.com/auto-complete/popup-el.git
+[submodule "bundle/auto-complete"]
+	path = bundle/auto-complete
+	url = https://github.com/auto-complete/auto-complete.git
