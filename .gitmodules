@@ -115,3 +115,6 @@
 [submodule "bundle/anaconda-mode"]
 	path = bundle/anaconda-mode
 	url = https://github.com/proofit404/anaconda-mode.git
+[submodule "bundle/tern"]
+	path = bundle/tern
+	url = https://github.com/marijnh/tern.git

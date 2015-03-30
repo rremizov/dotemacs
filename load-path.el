@@ -40,6 +40,7 @@
       "markdown-mode"
       "projectile"
       "smart-mode-line"
+      "tern/emacs"
       "twittering-mode"
       "undo-tree")))
       ; "color-theme"
