@@ -47,3 +47,7 @@
 (require 'evil-matchit)
 (global-evil-matchit-mode 1)
 
+
+;; Electric pair mode
+(electric-pair-mode 1)
+
