@@ -16,11 +16,6 @@ Plugins.
 *	[discover-my-major][discover-my-major]
 *	[elisp-json-rpc][elisp-json-rpc]
 *	[elscreen][elscreen]
-*	[emacs-ctable][emacs-ctable]
-*	[emacs-deferred][emacs-deferred]
-*	[emacs-epc][emacs-epc]
-*	[emacs-jedi][emacs-jedi]
-*	[emacs-python-environment][emacs-python-environment]
 *	[epl][epl]
 *	[evil-leader][evil-leader]
 *	[evil-matchit][evil-matchit]
@@ -107,6 +102,18 @@ __Go into Lisp shell, load `SLIME`__
 	(ql:quickload "quicklisp-slime-helper")
 
 
+To remove a submodule you need to:
+----------------------------------
+
+1. Delete the relevant section from the `.gitmodules` file.
+2. Stage the .gitmodules changes `git add .gitmodules`
+3. Delete the relevant section from `.git/config`.
+4. Run `git rm --cached path_to_submodule` (no trailing slash).
+5. Run `rm -rf .git/modules/path_to_submodule`
+6. Commit `git commit -m "Removed submodule <name>"`
+7. Delete the now untracked submodule files: `rm -rf path_to_submodule`
+
+
 [ac-anaconda]: https://github.com/proofit404/ac-anaconda.git
 [ace-jump-mode]: https://github.com/winterTTr/ace-jump-mode.git
 [anaconda-mode]: https://github.com/proofit404/anaconda-mode.git
@@ -119,11 +126,6 @@ __Go into Lisp shell, load `SLIME`__
 [discover-my-major]: https://github.com/steckerhalter/discover-my-major.git
 [elisp-json-rpc]: https://github.com/skeeto/elisp-json-rpc.git
 [elscreen]: https://github.com/knu/elscreen.git
-[emacs-ctable]: https://github.com/kiwanami/emacs-ctable.git
-[emacs-deferred]: https://github.com/kiwanami/emacs-deferred.git
-[emacs-epc]: https://github.com/kiwanami/emacs-epc.git
-[emacs-jedi]: https://github.com/tkf/emacs-jedi.git
-[emacs-python-environment]: https://github.com/tkf/emacs-python-environment.git
 [epl]: https://github.com/cask/epl.git
 [evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-matchit]: https://github.com/redguardtoo/evil-matchit.git
