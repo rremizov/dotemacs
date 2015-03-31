@@ -60,6 +60,7 @@
 
 ;; Ex
 (define-key evil-normal-state-map (kbd ";") 'evil-ex)
+(define-key evil-visual-state-map (kbd ";") 'evil-ex)
 
 
 ;; Magit
@@ -69,8 +70,8 @@
 ;; Git gutter
 (eval-after-load 'git-gutter+
   '(progn
-     (define-key git-gutter+-mode-map (kbd "[c") 'git-gutter+-previous-hunk)
-     (define-key git-gutter+-mode-map (kbd "]c") 'git-gutter+-next-hunk)
+     (evil-leader/set-key (kbd "<") 'git-gutter+-previous-hunk)
+     (evil-leader/set-key (kbd ">") 'git-gutter+-next-hunk)
      (evil-leader/set-key (kbd "gc") 'git-gutter+-commit)
      (evil-leader/set-key (kbd "hr") 'git-gutter+-revert-hunks)
      (evil-leader/set-key (kbd "hs") 'git-gutter+-stage-hunks)))

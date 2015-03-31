@@ -40,6 +40,7 @@
       "magit"
 
       "autocomplete"
+      "flycheck"
       "helm"
       "projectile"
       "evil")))
