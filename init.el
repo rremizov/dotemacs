@@ -1,11 +1,17 @@
+;; Setup environment
+(load (expand-file-name "~/.emacs.d/environment.el"))
+
+
 ;; Load slime-helper and sbcl
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "sbcl")
+
 
 ;; Load paredit
 (load (expand-file-name "~/.emacs.d/bundle/paredit/paredit.el"))
 (autoload 'enable-paredit-mode
           "paredit" "Turn on pseudo-structural editing of Lisp code." t)
+
 
 ;; Add plugins to load path
 (load (expand-file-name "~/.emacs.d/load-path.el"))
@@ -13,6 +19,7 @@
 
 ;; Load `after` macro
 (load (expand-file-name "~/.emacs.d/after.el"))
+
 
 ;; Load init.d
 (mapcar
