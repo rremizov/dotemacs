@@ -26,6 +26,22 @@
 (require 'auto-highlight-symbol)
 (global-auto-highlight-symbol-mode t)
 
+
+;; Prettify symbols mode
+(add-hook 'python-mode-hook
+          (lambda ()
+            (setq prettify-symbols-alist
+                  '(("lambda" . ?λ)
+                    ("sum" . ?Σ)))
+            (prettify-symbols-mode 1)))
+
+(add-hook 'js-mode-hook
+          (lambda ()
+            (setq prettify-symbols-alist
+                  '(("function" . ?ƒ)))
+            (prettify-symbols-mode 1)))
+
+
 ;; Solarized color theme
 ;; =====================
 
