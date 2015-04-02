@@ -67,6 +67,5 @@
 (setq custom-file "~/.emacs.d/init.d/custom.el")
 
 
-(provide 'init)
 ;;; init.el ends here
 

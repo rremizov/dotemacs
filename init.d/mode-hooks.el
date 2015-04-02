@@ -30,6 +30,5 @@
 (add-hook 'scheme-mode-hook #'enable-paredit-mode)
 (add-hook 'slime-repl-mode-hook (lambda () (paredit-mode +1)))
 
-(provide 'mode-hooks)
 ;;; mode-hooks.el ends here
 
