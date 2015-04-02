@@ -20,7 +20,10 @@
 (evil-mode 1)
 
 ;; Save buffer on exit from insert mode
-; (add-hook 'evil-insert-state-exit-hook 'save-buffer)
+(add-hook 'evil-insert-state-exit-hook
+	  (lambda ()
+	    (when (and (buffer-modified-p) (buffer-file-name))
+	      (progn (save-buffer)))))
 
 
 ;; Change mode-line color by evil state
