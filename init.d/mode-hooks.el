@@ -1,24 +1,24 @@
+;;; package -- Summary
+
+
+;;; Commentary:
+
+
+;;; Code:
+(setq-default indent-tabs-mode nil)
+
 (add-hook 'text-mode-hook
-          (lambda()
-            (setq tab-width 4)
+          (lambda ()
             (setq indent-tabs-mode t)
             (when (y-or-n-p "Auto Fill mode? ")
               (set-fill-column 80)
               (turn-on-auto-fill))))
 
 
-(add-hook 'python-mode-hook
-          (lambda()
-            (setq tab-width 4)
-            (setq indent-tabs-mode nil)))
-
-
 (add-hook 'lisp-mode-hook
-          (lambda()
+          (lambda ()
             (set (make-local-variable lisp-indent-function)
-                 'common-lisp-indent-function)
-            (setq tab-width 4)
-            (setq indent-tabs-mode nil)))
+                 'common-lisp-indent-function)))
 
 
 ;; Paredit mode
@@ -29,4 +29,7 @@
 (add-hook 'lisp-mode-hook #'enable-paredit-mode)
 (add-hook 'scheme-mode-hook #'enable-paredit-mode)
 (add-hook 'slime-repl-mode-hook (lambda () (paredit-mode +1)))
+
+(provide 'mode-hooks)
+;;; mode-hooks.el ends here
 

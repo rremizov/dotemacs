@@ -1,3 +1,11 @@
+;;; package --- Summary
+
+
+;;; Commentary:
+
+
+;;; Code:
+
 ;; Setup environment
 (load (expand-file-name "~/.emacs.d/environment.el"))
 
@@ -22,7 +30,7 @@
 
 
 ;; Load init.d
-(mapcar
+(mapc
   'load
   (mapcar
     (lambda (file-name) (concat "~/.emacs.d/init.d/" file-name ".el"))
@@ -57,4 +65,8 @@
 
 ;; File for storing customization information
 (setq custom-file "~/.emacs.d/init.d/custom.el")
+
+
+(provide 'init)
+;;; init.el ends here
 
