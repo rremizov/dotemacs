@@ -41,6 +41,19 @@
                   '(("function" . ?ƒ)))
             (prettify-symbols-mode 1)))
 
+(defun lisp-mode-symbols ()
+  (setq prettify-symbols-alist
+	'(("lambda" . ?λ)))
+  (prettify-symbols-mode 1))
+
+(add-hook 'emacs-lisp-mode-hook 'lisp-mode-symbols)
+(add-hook 'eval-expression-minibuffer-setup-hook 'lisp-mode-symbols)
+(add-hook 'ielm-mode-hook 'lisp-mode-symbols)
+(add-hook 'lisp-interaction-mode-hook 'lisp-mode-symbols)
+(add-hook 'lisp-mode-hook 'lisp-mode-symbols)
+(add-hook 'scheme-mode-hook 'lisp-mode-symbols)
+(add-hook 'slime-repl-mode-hook 'lisp-mode-symbols)
+
 
 ;; Solarized color theme
 ;; =====================
