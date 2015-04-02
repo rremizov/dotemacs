@@ -12,7 +12,7 @@
 (icomplete-mode 1)
 
 ;; Delete trailing whitespaces before saving
-; (add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Calendar
 (setq calendar-week-start-day 1
