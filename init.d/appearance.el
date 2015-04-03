@@ -1,3 +1,11 @@
+;;; package --- Summary
+
+
+;;; Commentary:
+
+
+;;; Code:
+
 ;; Hide the startup messages
 (setq inhibit-splash-screen t
       inhibit-startup-echo-area-message t
@@ -18,6 +26,9 @@
 
 ;; Font and it's size
 (set-face-attribute 'default nil :font "Anonymous Pro" :height 120)
+
+;; Highlight current line
+(global-hl-line-mode 1)
 
 ;; Highlight parenthesis pairs
 (show-paren-mode 1)
@@ -71,4 +82,6 @@
 ;; ---------------------
 ; (load-theme 'solarized-dark t)
 (load-theme 'zenburn t)
+
+;;; appearance.el ends here
 
