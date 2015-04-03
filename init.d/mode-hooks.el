@@ -21,6 +21,16 @@
                  'common-lisp-indent-function)))
 
 
+;; Treat underscore as a part of word
+(add-hook 'python-mode-hook
+          (lambda ()
+            (modify-syntax-entry ?_ "w")))
+
+(add-hook 'Javascript-mode-hook
+          (lambda ()
+            (modify-syntax-entry ?_ "w")))
+
+
 ;; Paredit mode
 (add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
 (add-hook 'eval-expression-minibuffer-setup-hook #'enable-paredit-mode)
