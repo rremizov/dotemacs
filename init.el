@@ -5,6 +5,7 @@
 
 
 ;;; Code:
+(load (expand-file-name "~/.emacs.d/utils.el"))
 
 ;; Setup environment
 (load (expand-file-name "~/.emacs.d/environment.el"))
@@ -25,10 +26,6 @@
 
 ;; Add plugins to load path
 (load (expand-file-name "~/.emacs.d/load-path.el"))
-
-
-;; Load `after` macro
-(load (expand-file-name "~/.emacs.d/after.el"))
 
 
 ;; Load init.d
