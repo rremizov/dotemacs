@@ -11,8 +11,10 @@
 
 
 ;; Load slime-helper and sbcl
-(load (expand-file-name "~/quicklisp/slime-helper.el"))
-(setq inferior-lisp-program "sbcl")
+(when (directory-files (expand-file-name "~") nil "quicklisp")
+  (when (directory-files (expand-file-name "~/quicklisp/") nil "slime-helper")
+	(load (expand-file-name "~/quicklisp/slime-helper.el"))
+	(setq inferior-lisp-program "sbcl")))
 
 
 ;; Load paredit
