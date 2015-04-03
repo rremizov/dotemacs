@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 pushd ./bundle/helm/
 make
 popd
