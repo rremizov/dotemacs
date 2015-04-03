@@ -1,4 +1,19 @@
-(load (expand-file-name "~/.emacs.d/multi-term.el"))
+(defmacro ad-macro-p (definition)
+  ;;"non-nil if DEFINITION is a macro."
+  (` (eq (car-safe (, definition)) 'macro)))
+
+
+(defun ad-advised-definition-p (definition)
+  ;;"non-nil if DEFINITION was generated from advice information."
+  (if (or (ad-lambda-p definition)
+          (ad-macro-p definition)
+          (ad-compiled-p definition))
+      (let ((docstring (ad-docstring definition)))
+        (and (stringp docstring)
+             (string-match
+              ad-advised-definition-docstring-regexp docstring)))))
+
+(load (expand-file-name "~/.emacs.d/bundle/multi-term/multi-term.el"))
 (require 'multi-term)
 
 (defun last-term-buffer (l)

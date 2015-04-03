@@ -1,41 +1,70 @@
-;; INIT
-;; ----
+;;; package --- Summary
+
+
+;;; Commentary:
+
+
+;;; Code:
+(load (expand-file-name "~/.emacs.d/utils.el"))
+
+;; Setup environment
+(load (expand-file-name "~/.emacs.d/environment.el"))
+
+
 ;; Load slime-helper and sbcl
-(load (expand-file-name "~/quicklisp/slime-helper.el"))
-(setq inferior-lisp-program "sbcl")
+(when (directory-files (expand-file-name "~") nil "quicklisp")
+  (when (directory-files (expand-file-name "~/quicklisp/") nil "slime-helper")
+	(load (expand-file-name "~/quicklisp/slime-helper.el"))
+	(setq inferior-lisp-program "sbcl")))
+
+
 ;; Load paredit
-(load (expand-file-name "~/.emacs.d/paredit.el"))
+(load (expand-file-name "~/.emacs.d/bundle/paredit/paredit.el"))
 (autoload 'enable-paredit-mode
           "paredit" "Turn on pseudo-structural editing of Lisp code." t)
-;; Load Emacs Lisp source code but hidden files
-(let ((init-dir "~/.emacs.d/init.d/"))
-  (dolist (file (directory-files init-dir))
-    (when (string-match-p "\\`[^.].*\\.elc?\\'" file)
-      (load-file (expand-file-name file init-dir)))))
+
+
+;; Add plugins to load path
+(load (expand-file-name "~/.emacs.d/load-path.el"))
+
+
+;; Load init.d
+(mapc
+  'load
+  (mapcar
+    (lambda (file-name) (concat "~/.emacs.d/init.d/" file-name ".el"))
+    '("appearance"
+      "autosaves-and-backups"
+      "browse-url"
+      "clipboard"
+      "core"
+      "custom"
+      "hotkeys"
+      "linum-off"
+      "mode-hooks"
+      "modeline"
+      "packages"
+      "tabs"
+
+      "markdown-mode"
+      "multi-term"
+      "org-mode"
+      "twittering-mode"
+      "wanderlust"
+      "magit"
+
+      "autocomplete"
+      "flycheck"
+      "helm"
+      "projectile"
+      "evil")))
+
 ;; Load experimental.el
 (load (expand-file-name "~/.emacs.d/experimental.el"))
 
 ;; File for storing customization information
 (setq custom-file "~/.emacs.d/init.d/custom.el")
 
-;; 'y' instead of 'yes'
-(fset 'yes-or-no-p 'y-or-n-p)
 
-;; Completion in mini-buffer
-(icomplete-mode 1)
-
-;; Delete trailing whitespaces before saving
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
-
-;; Highlight parenthesis pairs
-(show-paren-mode 1)
-
-;; Calendar
-(setq calendar-week-start-day 1
-      calendar-date-style 'iso)
-
-;; DISABLED OPTIONS
-;; ----------------
-;; Disable startup message
-;(setq inhibit-startup-message t)
+;;; init.el ends here
 

@@ -10,3 +10,117 @@
 [submodule "bundle/markdown-mode"]
 	path = bundle/markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
+[submodule "bundle/evil"]
+	path = bundle/evil
+	url = https://gitorious.org/evil/evil.git
+[submodule "bundle/zenburn"]
+	path = bundle/zenburn
+	url = https://github.com/bbatsov/zenburn-emacs.git
+[submodule "bundle/dash.el"]
+	path = bundle/dash.el
+	url = https://github.com/magnars/dash.el.git
+[submodule "bundle/rich-minority"]
+	path = bundle/rich-minority
+	url = https://github.com/Bruce-Connor/rich-minority.git
+[submodule "bundle/smart-mode-line"]
+	path = bundle/smart-mode-line
+	url = https://github.com/Bruce-Connor/smart-mode-line.git
+[submodule "bundle/elscreen"]
+	path = bundle/elscreen
+	url = https://github.com/knu/elscreen
+[submodule "bundle/evil-tabs"]
+	path = bundle/evil-tabs
+	url = https://github.com/krisajenkins/evil-tabs.git
+[submodule "bundle/evil-leader"]
+	path = bundle/evil-leader
+	url = https://github.com/cofi/evil-leader.git
+[submodule "bundle/auto-highlight-symbol"]
+	path = bundle/auto-highlight-symbol
+	url = https://github.com/gennad/auto-highlight-symbol.git
+[submodule "bundle/helm"]
+	path = bundle/helm
+	url = https://github.com/emacs-helm/helm.git
+[submodule "bundle/async"]
+	path = bundle/async
+	url = https://github.com/jwiegley/emacs-async.git
+[submodule "bundle/projectile"]
+	path = bundle/projectile
+	url = https://github.com/bbatsov/projectile.git
+[submodule "bundle/pkg-info.el"]
+	path = bundle/pkg-info.el
+	url = https://github.com/lunaryorn/pkg-info.el.git
+[submodule "bundle/epl"]
+	path = bundle/epl
+	url = https://github.com/cask/epl.git
+[submodule "bundle/s.el"]
+	path = bundle/s.el
+	url = https://github.com/magnars/s.el.git
+[submodule "bundle/makey"]
+	path = bundle/makey
+	url = https://github.com/mickeynp/makey.git
+[submodule "bundle/discover-my-major"]
+	path = bundle/discover-my-major
+	url = https://github.com/steckerhalter/discover-my-major.git
+[submodule "bundle/helm-descbinds"]
+	path = bundle/helm-descbinds
+	url = https://github.com/emacs-helm/helm-descbinds.git
+[submodule "bundle/golden-ratio"]
+	path = bundle/golden-ratio
+	url = https://github.com/roman/golden-ratio.el.git
+[submodule "bundle/git-modes"]
+	path = bundle/git-modes
+	url = https://github.com/magit/git-modes.git
+[submodule "bundle/magit"]
+	path = bundle/magit
+	url = https://github.com/magit/magit.git
+[submodule "bundle/fringe-helper.el"]
+	path = bundle/fringe-helper.el
+	url = https://github.com/nschum/fringe-helper.el.git
+[submodule "bundle/git-gutter-fringe-plus"]
+	path = bundle/git-gutter-fringe-plus
+	url = https://github.com/nonsequitur/git-gutter-fringe-plus.git
+[submodule "bundle/git-gutter-plus"]
+	path = bundle/git-gutter-plus
+	url = https://github.com/nonsequitur/git-gutter-plus.git
+[submodule "bundle/ace-jump-mode"]
+	path = bundle/ace-jump-mode
+	url = https://github.com/winterTTr/ace-jump-mode.git
+[submodule "bundle/evil-snipe"]
+	path = bundle/evil-snipe
+	url = https://github.com/hlissner/evil-snipe.git
+[submodule "bundle/evil-numbers"]
+	path = bundle/evil-numbers
+	url = https://github.com/cofi/evil-numbers.git
+[submodule "bundle/evil-surround"]
+	path = bundle/evil-surround
+	url = https://github.com/timcharper/evil-surround.git
+[submodule "bundle/evil-matchit"]
+	path = bundle/evil-matchit
+	url = https://github.com/redguardtoo/evil-matchit.git
+[submodule "bundle/popup-el"]
+	path = bundle/popup-el
+	url = https://github.com/auto-complete/popup-el.git
+[submodule "bundle/auto-complete"]
+	path = bundle/auto-complete
+	url = https://github.com/auto-complete/auto-complete.git
+[submodule "bundle/elisp-json-rpc"]
+	path = bundle/elisp-json-rpc
+	url = https://github.com/skeeto/elisp-json-rpc.git
+[submodule "bundle/f.el"]
+	path = bundle/f.el
+	url = https://github.com/rejeep/f.el.git
+[submodule "bundle/ac-anaconda"]
+	path = bundle/ac-anaconda
+	url = https://github.com/proofit404/ac-anaconda.git
+[submodule "bundle/anaconda-mode"]
+	path = bundle/anaconda-mode
+	url = https://github.com/proofit404/anaconda-mode.git
+[submodule "bundle/tern"]
+	path = bundle/tern
+	url = https://github.com/marijnh/tern.git
+[submodule "bundle/flycheck"]
+	path = bundle/flycheck
+	url = https://github.com/flycheck/flycheck.git
+[submodule "bundle/helm-flycheck"]
+	path = bundle/helm-flycheck
+	url = https://github.com/yasuyk/helm-flycheck.git
