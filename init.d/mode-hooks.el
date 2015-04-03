@@ -28,7 +28,6 @@
 
 (add-hook 'js-mode-hook
           (lambda ()
-			(message "[JAVASCRIPT-MODE-HOOK]")
             (modify-syntax-entry ?_ "w")))
 
 
