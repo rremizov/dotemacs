@@ -54,7 +54,8 @@
 
 (defun lisp-mode-symbols ()
   (setq prettify-symbols-alist
-	'(("lambda" . ?λ)))
+	'(("lambda" . ?λ)
+          ("defun" . ?ƒ)))
   (prettify-symbols-mode 1))
 
 (add-hook 'emacs-lisp-mode-hook 'lisp-mode-symbols)
