@@ -1,3 +1,11 @@
+;;; package --- Summary
+
+
+;;; Commentary:
+
+
+;;; Code:
+
 ;; Leader
 (require 'evil-leader)
 (global-evil-leader-mode)
@@ -80,11 +88,13 @@
 ;; Ace
 (require 'ace-jump-mode)
 (setq ace-jump-word-mode-use-query-char nil)
-(define-key evil-normal-state-map (kbd "M-j") 'evil-ace-jump-word-mode)
+(define-key evil-normal-state-map (kbd "C-m") 'evil-ace-jump-word-mode)
 
 
 ;; Numbers
 (require 'evil-numbers)
 (define-key evil-normal-state-map (kbd "C-=") 'evil-numbers/inc-at-pt)
 (define-key evil-normal-state-map (kbd "C--") 'evil-numbers/dec-at-pt)
+
+;;; hotkeys.el ends here
 
