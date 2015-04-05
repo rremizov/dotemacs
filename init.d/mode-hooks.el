@@ -21,6 +21,12 @@
                  'common-lisp-indent-function)))
 
 
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (setq tab-width 2)
+            (setq evil-shift-width 2)))
+
+
 ;; Treat underscore as a part of word
 (add-hook 'python-mode-hook
           (lambda ()
