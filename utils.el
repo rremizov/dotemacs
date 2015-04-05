@@ -6,29 +6,71 @@
 
 ;;; Code:
 
+(when (directory-files "." nil "^\.git$")
+  (setenv "PROJECTROOT" (expand-file-name ".")))
+
+
 (defun do-if (exp callback)
   "Check, whether EXP is true.  If it is, pass it into CALLBACK."
 
   (when exp (funcall callback exp)))
 
 
-(defun add-to-env (filename path env)
-  "Look for the FILENAME inside PATH.  Add folder with FILENAME to ENV."
+(defun locate-django-project ()
+  "Look for Django project."
 
   (do-if
-   (locate-file filename
-                (mapcar (lambda (item) (concat (expand-file-name ".") item))
-                        path))
+   (locate-file "manage.py"
+                (mapcar (lambda (item) (concat (getenv "PROJECTROOT") item))
+                        '("" "/server/src")))
+   (lambda (path) (replace-regexp-in-string "manage\.py$" "" path))))
 
-   (lambda (path)
-     (setenv env
-             (concat (replace-regexp-in-string (concat filename "$")
-                                               ""
-                                               path)
-                     ":"
-                     (getenv env)))
 
-     (message (concat "[ENVIRONMENT] [" env "] " (getenv env))))))
+(defun add-django-to-env (env)
+  "Add Django project to ENV."
+
+  (do-if (locate-django-project)
+         (lambda (path)
+           (setenv env (concat path ":" (getenv env)))
+           (message (concat "[ENVIRONMENT] [" env "] " (getenv env))))))
+
+
+(defun use-django-shell ()
+  "Use Django shell if it is available."
+
+  (do-if (locate-django-project)
+         (lambda (path)
+           (setenv "DJANGO_SETTINGS_MODULE" "settings"))))
+
+
+(defun look-for-virtualenv (subdirectory)
+  "Look for python virtualenv inside SUBDIRECTORY."
+
+    (when (directory-files (getenv "PROJECTROOT")
+                           nil
+                           (concat "^" subdirectory "$"))
+
+      (let ((virtualenv
+             (concat (getenv "PROJECTROOT") "/" subdirectory "/")))
+
+        (message (concat "[ENVIRONMENT] Detected python virtualenv at "
+                         virtualenv))
+        virtualenv)))
+
+
+(defun enable-virtualenv ()
+    "Enable virtualenv if it is available."
+
+    (do-if
+     (look-for-virtualenv "pyenv")
+     (lambda (path)
+
+       (add-to-list 'exec-path (concat path "bin/"))
+       (setenv "PATH" (concat path "bin/:" (getenv "PATH")))
+       (message (concat "[ENVIRONMENT] [PATH] " (getenv "PATH")))
+
+       (setenv "VIRTUAL_ENV" path)
+       (message (concat "[ENVIRONMENT] [VIRTUAL_ENV] " (getenv "VIRTUAL_ENV"))))))
 
 
 (defmacro after (mode &rest body)
