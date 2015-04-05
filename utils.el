@@ -43,6 +43,14 @@
            (setenv "DJANGO_SETTINGS_MODULE" "settings"))))
 
 
+(defun use-ipython ()
+  "Use ipython if it is available."
+
+  (do-if (locate-file "ipython" exec-path)
+         (lambda (path)
+           (setq python-shell-interpreter "ipython"))))
+
+
 (defun look-for-virtualenv (subdirectory)
   "Look for python virtualenv inside SUBDIRECTORY."
 
