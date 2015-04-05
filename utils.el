@@ -19,11 +19,12 @@
 (defun locate-django-project ()
   "Look for Django project."
 
-  (do-if
-   (locate-file "manage.py"
-                (mapcar (lambda (item) (concat (getenv "PROJECTROOT") item))
-                        '("" "/server/src")))
-   (lambda (path) (replace-regexp-in-string "manage\.py$" "" path))))
+  (when (getenv "PROJECTROOT")
+    (do-if
+     (locate-file "manage.py"
+                  (mapcar (lambda (item) (concat (getenv "PROJECTROOT") item))
+                          '("" "/server/src")))
+     (lambda (path) (replace-regexp-in-string "manage\.py$" "" path)))))
 
 
 (defun add-django-to-env (env)
@@ -54,6 +55,7 @@
 (defun look-for-virtualenv (subdirectory)
   "Look for python virtualenv inside SUBDIRECTORY."
 
+  (when (getenv "PROJECTROOT")
     (when (directory-files (getenv "PROJECTROOT")
                            nil
                            (concat "^" subdirectory "$"))
@@ -63,7 +65,7 @@
 
         (message (concat "[ENVIRONMENT] Detected python virtualenv at "
                          virtualenv))
-        virtualenv)))
+        virtualenv))))
 
 
 (defun enable-virtualenv ()
