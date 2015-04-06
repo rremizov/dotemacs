@@ -20,11 +20,17 @@
   "Look for Django project."
 
   (when (getenv "PROJECTROOT")
-    (do-if
+    (do-if (locate-django-manage)
+           (lambda (path) (replace-regexp-in-string "manage\.py$" "" path)))))
+
+
+(defun locate-django-manage ()
+  "Look for Django's manage.py script."
+
+  (when (getenv "PROJECTROOT")
      (locate-file "manage.py"
                   (mapcar (lambda (item) (concat (getenv "PROJECTROOT") item))
-                          '("" "/server/src")))
-     (lambda (path) (replace-regexp-in-string "manage\.py$" "" path)))))
+                          '("" "/server/src")))))
 
 
 (defun add-django-to-env (env)

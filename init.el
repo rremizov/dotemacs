@@ -11,6 +11,10 @@
 (load (expand-file-name "~/.emacs.d/environment.el"))
 
 
+;; Load django commands
+(load (expand-file-name "~/.emacs.d/init.d/django.el"))
+
+
 ;; Load slime-helper and sbcl
 (when (directory-files (expand-file-name "~") nil "quicklisp")
   (when (directory-files (expand-file-name "~/quicklisp/") nil "slime-helper")
