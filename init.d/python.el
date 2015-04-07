@@ -6,16 +6,6 @@
 
 ;;; Code:
 
-(when (directory-files "." nil "^\.git$")
-  (setenv "PROJECTROOT" (expand-file-name ".")))
-
-
-(defun do-if (exp callback)
-  "Check, whether EXP is true.  If it is, pass it into CALLBACK."
-
-  (when exp (funcall callback exp)))
-
-
 (defun locate-django-project ()
   "Look for Django project."
 
@@ -38,16 +28,9 @@
 
   (do-if (locate-django-project)
          (lambda (path)
+           (setenv "DJANGO_SETTINGS_MODULE" "settings")
            (setenv env (concat path ":" (getenv env)))
            (message (concat "[ENVIRONMENT] [" env "] " (getenv env))))))
-
-
-(defun use-django-shell ()
-  "Use Django shell if it is available."
-
-  (do-if (locate-django-project)
-         (lambda (path)
-           (setenv "DJANGO_SETTINGS_MODULE" "settings"))))
 
 
 (defun use-ipython ()
@@ -89,11 +72,14 @@
        (message (concat "[ENVIRONMENT] [VIRTUAL_ENV] " (getenv "VIRTUAL_ENV"))))))
 
 
-(defmacro after (mode &rest body)
-  "`eval-after-load' MODE evaluate BODY."
-  (declare (indent defun))
-  `(eval-after-load ,mode
-     '(progn ,@body)))
+(defun django-manage (command)
+  "Call Django manage.py with COMMAND argument."
 
-;;; utils.el ends here
+  (interactive "sCommand: ")
+
+  (shell-command (concat "python " (locate-django-manage) " " command)
+                 "*Django-Management*"
+                 "*Django-Management*"))
+
+;;; python.el ends here
 

@@ -5,15 +5,6 @@
 
 
 ;;; Code:
-(load (expand-file-name "~/.emacs.d/utils.el"))
-
-;; Setup environment
-(load (expand-file-name "~/.emacs.d/environment.el"))
-
-
-;; Load django commands
-(load (expand-file-name "~/.emacs.d/init.d/django.el"))
-
 
 ;; Load slime-helper and sbcl
 (when (directory-files (expand-file-name "~") nil "quicklisp")
@@ -37,7 +28,11 @@
   'load
   (mapcar
     (lambda (file-name) (concat "~/.emacs.d/init.d/" file-name ".el"))
-    '("appearance"
+    '("python"
+      "utils"
+      "environment"
+
+      "appearance"
       "autosaves-and-backups"
       "browse-url"
       "clipboard"
@@ -61,14 +56,12 @@
       "flycheck"
       "helm"
       "projectile"
-      "evil")))
+      "evil"
 
-;; Load experimental.el
-(load (expand-file-name "~/.emacs.d/experimental.el"))
+      "experimental")))
 
 ;; File for storing customization information
 (setq custom-file "~/.emacs.d/init.d/custom.el")
-
 
 ;;; init.el ends here
 
