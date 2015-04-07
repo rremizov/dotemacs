@@ -50,23 +50,15 @@ Plugins.
 *	[tern][tern]
 *	[twittering mode][twittering-mode]
 *	[undo-tree][undo-tree]
+*	[wanderlust][wanderlust]
 *	[zenburn][zenburn]
 
 
 Dependencies.
 -------------
 
-Emacs 24.4+
-
+*   Emacs 24.4+
 *	[Anonymous Pro fonts][anonymous-pro]
-*	[SLIME][slime]
-*	[Steel Bank Common Lisp][sbcl]
-*	[Wanderlust][wanderlust]
-*	[multi-term][multi-term] requires `/bin/bash`
-*	[quicklisp][quicklisp]
-*	[twittering mode][twittering-mode]
-	*	`notify-send` (on Debian available as `libnotify-bin` package)
-	*	Other dependencies, described [here][twittering-mode].
 
 
 Installation.
@@ -167,6 +159,7 @@ To remove a submodule you need to:
 [tern]: https://github.com/marijnh/tern.git
 [twittering-mode]: https://github.com/hayamiz/twittering-mode/
 [undo-tree]: http://www.dr-qubit.org/undo-tree/undo-tree-0.6.4.el
+[wanderlust]: http://melpa.org/#/wanderlust
 [wanderlust]: https://github.com/wanderlust/wanderlust
 [zenburn]: https://github.com/bbatsov/zenburn-emacs.git
 

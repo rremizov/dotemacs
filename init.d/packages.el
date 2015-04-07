@@ -1,16 +1,36 @@
-; (require 'package)
+;;; package --- Summary
 
-; (add-to-list 'package-archives
-;              '("melpa" . "http://melpa.org/packages/") t)
 
-; (when (< emacs-major-version 24)
-;   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+;;; Commentary:
 
-; (package-initialize)
 
-; (defadvice package-compute-transaction
-;   (before package-compute-transaction-reverse (package-list requirements) activate compile)
-;     "reverse the requirements"
-;     (setq requirements (reverse requirements))
-;     (print requirements))
+;;; Code:
+
+(require 'package)
+
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+
+(when (< emacs-major-version 24)
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+
+(package-initialize)
+
+;;; Install
+(defvar default-packages
+  '(wanderlust)
+  "A list of packages to ensure are installed at launch.")
+
+(defun packages-installed-p ()
+  (loop for p in default-packages
+        when (not (package-installed-p p)) do (return nil)
+        finally (return t)))
+
+(unless (packages-installed-p)
+  (package-refresh-contents)
+  (dolist (p default-packages)
+    (when (not (package-installed-p p))
+      (package-install p))))
+
+;;; packages.el ends here
 
