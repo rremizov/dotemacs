@@ -1,3 +1,11 @@
+;;; package --- Summary:
+
+
+;;; Commentary:
+
+
+;;;Code:
+
 (require 'discover-my-major)
 (require 'golden-ratio)
 
@@ -50,4 +58,7 @@
 
 ;; Electric pair mode
 (electric-pair-mode 1)
+
+
+;;; core.el ends here
 
