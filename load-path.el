@@ -1,5 +1,14 @@
+;;; package --- Summary:
+
+
+;;; Commentary:
+
+
+;;; Code:
+
+
 ;; Plugins
-(mapcar
+(mapc
   (lambda (path) (add-to-list 'load-path path))
   (mapcar
     (lambda (name) (concat "~/.emacs.d/bundle/" name))
@@ -34,6 +43,7 @@
       "flycheck"
       "git-gutter-fringe-plus"
       "git-gutter-plus"
+      "git-timemachine"
       "golden-ratio"
       "helm"
       "helm-descbinds"
@@ -50,10 +60,12 @@
       ; "solarized"
 
 ;; Themes
-(mapcar
+(mapc
   (lambda (path) (add-to-list 'custom-theme-load-path path))
   (mapcar
     (lambda (name) (concat "~/.emacs.d/bundle/" name))
     '("zenburn"
       "solarized")))
+
+;;; load-path.el ends here
 

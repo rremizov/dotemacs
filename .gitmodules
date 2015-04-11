@@ -124,3 +124,6 @@
 [submodule "bundle/helm-flycheck"]
 	path = bundle/helm-flycheck
 	url = https://github.com/yasuyk/helm-flycheck.git
+[submodule "bundle/git-timemachine"]
+	path = bundle/git-timemachine
+	url = https://github.com/pidu/git-timemachine.git

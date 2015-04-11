@@ -1,3 +1,11 @@
+;;; package --- Summary
+
+
+;;; Commentary:
+
+
+;;; Code:
+
 (require 'evil)
 
 ;; Change cursor color depending on mode
@@ -17,14 +25,6 @@
       (org-mode . emacs))
  do (evil-set-initial-state mode state))
 
-
-;; Wanderlust
-(add-hook 'wl-folder-mode-hook '(lambda () (evil-mode 0)))
-(add-hook 'wl-summary-mode-hook '(lambda () (evil-mode 0)))
-(add-hook 'wl-draft-mode-hook '(lambda () (evil-mode 0)))
-(add-hook 'wl-score-mode-hook '(lambda () (evil-mode 0)))
-(add-hook 'wl-plugged-mode-hook '(lambda () (evil-mode 0)))
-(add-hook 'wl-message-mode-hook '(lambda () (evil-mode 0)))
 
 
 (evil-mode 1)
@@ -69,4 +69,23 @@
 ;; Surround
 (require 'evil-surround)
 (global-evil-surround-mode 1)
+
+
+;; Wanderlust
+(add-hook 'wl-folder-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-summary-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-draft-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-score-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-plugged-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-message-mode-hook '(lambda () (evil-mode 0)))
+
+
+;; git-timemachine
+(require 'git-timemachine)
+(eval-after-load 'git-timemachine
+  '(progn
+     (evil-make-overriding-map git-timemachine-mode-map 'normal)
+     (add-hook 'git-timemachine-mode-hook #'evil-normalize-keymaps)))
+
+;;; evil.el ends here
 
