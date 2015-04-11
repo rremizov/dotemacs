@@ -1,3 +1,11 @@
+;;; package --- Summary:
+
+
+;;; Commentary:
+
+
+;;; Code:
+
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/bundle/auto-complete/dict")
 (ac-config-default)
@@ -22,4 +30,18 @@
 (defun delete-tern-process ()
   (interactive)
   (delete-process "Tern"))
+
+
+;; ielm
+(defun ielm-auto-complete ()
+  "Enables `auto-complete' support in \\[ielm]."
+  (setq ac-sources '(ac-source-functions
+                     ac-source-variables
+                     ac-source-features
+                     ac-source-symbols
+                     ac-source-words-in-same-mode-buffers))
+  (add-to-list 'ac-modes 'inferior-emacs-lisp-mode))
+(add-hook 'ielm-mode-hook 'ielm-auto-complete)
+
+;;; autocomplete.el ends here
 
