@@ -17,6 +17,16 @@
       (org-mode . emacs))
  do (evil-set-initial-state mode state))
 
+
+;; Wanderlust
+(add-hook 'wl-folder-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-summary-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-draft-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-score-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-plugged-mode-hook '(lambda () (evil-mode 0)))
+(add-hook 'wl-message-mode-hook '(lambda () (evil-mode 0)))
+
+
 (evil-mode 1)
 
 ;; Save buffer on exit from insert mode
