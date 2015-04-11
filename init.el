@@ -45,12 +45,13 @@
       "packages"
       "tabs"
 
+      "magit"
       "markdown-mode"
       "multi-term"
       "org-mode"
+      "sql"
       "twittering-mode"
       "wanderlust"
-      "magit"
 
       "autocomplete"
       "flycheck"
