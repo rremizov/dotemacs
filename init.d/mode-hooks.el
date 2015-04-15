@@ -5,6 +5,8 @@
 
 
 ;;; Code:
+(require 'less-css-mode)
+
 (setq-default indent-tabs-mode nil)
 
 (add-hook 'text-mode-hook

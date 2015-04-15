@@ -34,6 +34,7 @@ Plugins.
 *	[helm-descbinds][helm-descbinds]
 *	[helm-flycheck][helm-flycheck]
 *	[helm][helm]
+*	[less-css-mode][less-css-mode]
 *	[linum-relative][linum-relative]
 *	[magit][magit]
 *	[makey][makey]
@@ -139,6 +140,7 @@ To remove a submodule you need to:
 [helm-descbinds]: https://github.com/emacs-helm/helm-descbinds.git
 [helm-flycheck]: https://github.com/yasuyk/helm-flycheck.git
 [helm]: https://github.com/emacs-helm/helm.git
+[less-css-mode]: https://github.com/purcell/less-css-mode.git
 [linum-relative]: https://github.com/coldnew/linum-relative
 [luakit]: https://github.com/mason-larobina/luakit/
 [magit]: https://github.com/magit/magit.git

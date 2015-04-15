@@ -48,6 +48,7 @@
       "helm"
       "helm-descbinds"
       "helm-flycheck"
+      "less-css-mode"
       "linum-relative"
       "magit"
       "markdown-mode"

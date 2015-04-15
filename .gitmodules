@@ -127,3 +127,6 @@
 [submodule "bundle/git-timemachine"]
 	path = bundle/git-timemachine
 	url = https://github.com/pidu/git-timemachine.git
+[submodule "bundle/less-css-mode"]
+	path = bundle/less-css-mode
+	url = https://github.com/purcell/less-css-mode.git
