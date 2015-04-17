@@ -10,12 +10,12 @@
 
 (setq-default indent-tabs-mode nil)
 
-(add-hook 'text-mode-hook
-          (lambda ()
-            (setq indent-tabs-mode t)
-            (when (y-or-n-p "Auto Fill mode? ")
-              (set-fill-column 80)
-              (turn-on-auto-fill))))
+;; (add-hook 'text-mode-hook
+;;           (lambda ()
+;;             (setq indent-tabs-mode t)
+;;             (when (y-or-n-p "Auto Fill mode? ")
+;;               (set-fill-column 80)
+;;               (turn-on-auto-fill))))
 
 
 (add-hook 'lisp-mode-hook
