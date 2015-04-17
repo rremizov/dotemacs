@@ -6,6 +6,7 @@
 
 ;;; Code:
 (require 'less-css-mode)
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . js-mode))
 
 (setq-default indent-tabs-mode nil)
 
