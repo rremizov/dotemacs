@@ -34,9 +34,9 @@
 
 
 ;; Restore cursor position when reopening files
-; (require 'saveplace)
-; (setq save-place-file "~/.emacs.d/local/saveplace")
-; (setq-default save-place t)
+(require 'saveplace)
+(setq save-place-file "~/.emacs.d/local/saveplace")
+(setq-default save-place t)
 
 
 ;; Save on focus out
