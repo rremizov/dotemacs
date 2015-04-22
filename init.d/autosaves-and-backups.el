@@ -48,9 +48,9 @@
 
 
 ;; Save on interval
-(add-hook
-  'auto-save-hook
-  (lambda ()
-    (interactive)
-    (save-some-buffers t)))
+; (add-hook
+;   'auto-save-hook
+;   (lambda ()
+;     (interactive)
+;     (save-some-buffers t)))
 
