@@ -21,13 +21,13 @@
  for (mode . state)
  in '((term-mode . emacs)
       (dired-mode . emacs)
-      (eshell-mode . emacs)
-      (org-mode . emacs))
+      (eshell-mode . emacs))
  do (evil-set-initial-state mode state))
 
 
 
 (evil-mode 1)
+
 
 ;; Save buffer on exit from insert mode
 (add-hook 'evil-insert-state-exit-hook
