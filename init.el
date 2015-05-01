@@ -43,7 +43,6 @@
       "mode-hooks"
       "modeline"
       "packages"
-      "tabs"
 
       "magit"
       "markdown-mode"
