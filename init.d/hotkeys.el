@@ -96,5 +96,11 @@
 (define-key evil-normal-state-map (kbd "C-=") 'evil-numbers/inc-at-pt)
 (define-key evil-normal-state-map (kbd "C--") 'evil-numbers/dec-at-pt)
 
+
+;; Eyebrowse
+(define-key evil-normal-state-map (kbd "gc") 'eyebrowse-close-window-config)
+(define-key evil-normal-state-map (kbd "gt") 'eyebrowse-next-window-config)
+(define-key evil-normal-state-map (kbd "gT") 'eyebrowse-prev-window-config)
+
 ;;; hotkeys.el ends here
 

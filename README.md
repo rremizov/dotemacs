@@ -22,6 +22,7 @@ Plugins.
 *	[evil-snipe][evil-snipe]
 *	[evil-surround][evil-surround]
 *	[evil][evil]
+*	[eyebrowse][eyebrowse]
 *	[f.el][f.el]
 *	[flycheck][flycheck]
 *	[fringe-helper.el][fringe-helper.el]
@@ -126,6 +127,7 @@ To remove a submodule you need to:
 [evil-snipe]: https://github.com/hlissner/evil-snipe.git
 [evil-surround]: https://github.com/timcharper/evil-surround.git
 [evil]: https://gitorious.org/evil/evil/
+[eyebrowse]: https://github.com/wasamasa/eyebrowse.git
 [f.el]: https://github.com/rejeep/f.el.git
 [flycheck]: https://github.com/flycheck/flycheck.git
 [fringe-helper.el]: https://github.com/nschum/fringe-helper.el.git

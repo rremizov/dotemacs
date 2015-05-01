@@ -60,5 +60,9 @@
 (electric-pair-mode 1)
 
 
+;; Eyebrowse
+(require 'eyebrowse)
+(eyebrowse-mode t)
+
 ;;; core.el ends here
 

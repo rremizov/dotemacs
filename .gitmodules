@@ -124,3 +124,6 @@
 [submodule "bundle/less-css-mode"]
 	path = bundle/less-css-mode
 	url = https://github.com/purcell/less-css-mode.git
+[submodule "bundle/eyebrowse"]
+	path = bundle/eyebrowse
+	url = https://github.com/wasamasa/eyebrowse.git
