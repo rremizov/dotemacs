@@ -15,7 +15,6 @@ Plugins.
 *	[dash.el][dash.el]
 *	[discover-my-major][discover-my-major]
 *	[elisp-json-rpc][elisp-json-rpc]
-*	[elscreen][elscreen]
 *	[epl][epl]
 *	[evil-leader][evil-leader]
 *	[evil-matchit][evil-matchit]
@@ -121,7 +120,6 @@ To remove a submodule you need to:
 [dash.el]: https://github.com/magnars/dash.el.git
 [discover-my-major]: https://github.com/steckerhalter/discover-my-major.git
 [elisp-json-rpc]: https://github.com/skeeto/elisp-json-rpc.git
-[elscreen]: https://github.com/knu/elscreen.git
 [epl]: https://github.com/cask/epl.git
 [evil-leader]: https://github.com/cofi/evil-leader.git
 [evil-matchit]: https://github.com/redguardtoo/evil-matchit.git

@@ -15,7 +15,6 @@
     '("async"
       "dash.el"
       "elisp-json-rpc"
-      "elscreen"
       "epl"
       "f.el"
       "fringe-helper.el"
