@@ -21,7 +21,6 @@ Plugins.
 *	[evil-numbers][evil-numbers]
 *	[evil-snipe][evil-snipe]
 *	[evil-surround][evil-surround]
-*	[evil-tabs][evil-tabs]
 *	[evil][evil]
 *	[f.el][f.el]
 *	[flycheck][flycheck]
@@ -126,7 +125,6 @@ To remove a submodule you need to:
 [evil-numbers]: https://github.com/cofi/evil-numbers.git
 [evil-snipe]: https://github.com/hlissner/evil-snipe.git
 [evil-surround]: https://github.com/timcharper/evil-surround.git
-[evil-tabs]: https://github.com/krisajenkins/evil-tabs.git
 [evil]: https://gitorious.org/evil/evil/
 [f.el]: https://github.com/rejeep/f.el.git
 [flycheck]: https://github.com/flycheck/flycheck.git

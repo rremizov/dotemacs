@@ -14,8 +14,6 @@
  '(desktop-path (quote ("~/.emacs.d/" "~" ".")))
  '(desktop-restore-frames nil)
  '(desktop-save-mode t)
- '(elscreen-tab-display-control nil)
- '(elscreen-tab-display-kill-screen nil)
  '(eshell-directory-name "~/.emacs.d/local/eshell/")
  '(eshell-history-file-name "/home/enlighter/.emacs.d/local/eshell/history")
  '(image-dired-dir "~/.emacs.d/local/image-dired")
@@ -33,7 +31,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ahs-face ((t (:underline t))))
- '(ahs-plugin-defalt-face ((t (:underline t))))
- '(elscreen-tab-background-face ((t (:background "#3f3f3f"))))
- '(elscreen-tab-current-screen-face ((t (:background "#afd787" :foreground "black"))))
- '(elscreen-tab-other-screen-face ((t (:background "#3a3a3a" :foreground "Gray50")))))
+ '(ahs-plugin-defalt-face ((t (:underline t)))))

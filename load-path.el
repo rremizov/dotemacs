@@ -38,7 +38,6 @@
       "evil-numbers"
       "evil-snipe"
       "evil-surround"
-      "evil-tabs"
       "flycheck"
       "git-gutter-fringe-plus"
       "git-gutter-plus"
