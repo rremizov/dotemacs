@@ -40,6 +40,7 @@ Plugins.
 *	[markdown-mode][markdown-mode]
 *	[multi-term][multi-term]
 *	[paredit][paredit]
+*	[peep-dired][peep-dired]
 *	[pkg-info][pkg-info]
 *	[popup-el][popup-el]
 *	[projectile][projectile]
@@ -146,6 +147,7 @@ To remove a submodule you need to:
 [markdown-mode]: http://www.emacswiki.org/emacs/MarkdownMode
 [multi-term]: http://www.emacswiki.org/emacs/MultiTerm
 [paredit]: http://mumble.net/~campbell/emacs/paredit.el
+[peep-dired]: https://github.com/asok/peep-dired.git
 [pkg-info]: https://github.com/lunaryorn/pkg-info.el.git
 [popup-el]: https://github.com/auto-complete/popup-el.git
 [projectile]: https://github.com/bbatsov/projectile.git

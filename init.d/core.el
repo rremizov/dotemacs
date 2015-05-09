@@ -64,5 +64,9 @@
 (require 'eyebrowse)
 (eyebrowse-mode t)
 
+
+;; Peep-dired
+(require 'peep-dired)
+
 ;;; core.el ends here
 

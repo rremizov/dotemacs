@@ -51,6 +51,7 @@
       "linum-relative"
       "magit"
       "markdown-mode"
+      "peep-dired"
       "projectile"
       "smart-mode-line"
       "tern/emacs"

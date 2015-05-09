@@ -127,3 +127,6 @@
 [submodule "bundle/eyebrowse"]
 	path = bundle/eyebrowse
 	url = https://github.com/wasamasa/eyebrowse.git
+[submodule "bundle/peep-dired"]
+	path = bundle/peep-dired
+	url = https://github.com/asok/peep-dired.git
