@@ -16,6 +16,8 @@
  '(desktop-save-mode t)
  '(eshell-directory-name "~/.emacs.d/local/eshell/")
  '(eshell-history-file-name "/home/enlighter/.emacs.d/local/eshell/history")
+ '(eyebrowse-new-workspace t)
+ '(eyebrowse-wrap-around t)
  '(image-dired-dir "~/.emacs.d/local/image-dired")
  '(menu-bar-mode nil)
  '(projectile-known-projects-file "/home/enlighter/.emacs.d/local/projectile-bookmarks.eld")
