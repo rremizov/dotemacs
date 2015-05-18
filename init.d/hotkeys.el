@@ -102,5 +102,9 @@
 (define-key evil-normal-state-map (kbd "gt") 'eyebrowse-next-window-config)
 (define-key evil-normal-state-map (kbd "gT") 'eyebrowse-prev-window-config)
 
+
+;; Csscomb
+(define-key evil-normal-state-map (kbd "F7") 'csscomb)
+
 ;;; hotkeys.el ends here
 

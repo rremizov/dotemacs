@@ -18,5 +18,12 @@
   `(eval-after-load ,mode
      '(progn ,@body)))
 
+
+(defun csscomb ()
+  "Pass current buffer into csscomb."
+  (interactive)
+
+  (shell-command (concat "csscomb " buffer-file-name)))
+
 ;;; utils.el ends here
 
