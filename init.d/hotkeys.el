@@ -104,7 +104,7 @@
 
 
 ;; Csscomb
-(define-key evil-normal-state-map (kbd "F7") 'csscomb)
+(define-key evil-normal-state-map (kbd "<f7>") 'csscomb)
 
 ;;; hotkeys.el ends here
 
