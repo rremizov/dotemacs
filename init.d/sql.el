@@ -27,6 +27,22 @@
 ;;                   (sql-password "password")
 ;;                   (sql-database "db2"))))
 
+;; .dir-locals.el example:
+;; ((nil . ((sql-connection-alist
+;;           (server0 (sql-product 'postgres)
+;;                    (sql-port 5432)
+;;                    (sql-server "localhost")
+;;                    (sql-user "application")
+;;                    (sql-password "password")
+;;                    (sql-database "solitair"))
+;;           (server1 (sql-product 'postgres)
+;;                    (sql-port 5432)
+;;                    (sql-server "localhost")
+;;                    (sql-user "application")
+;;                    (sql-password "password")
+;;                    (sql-database "solitair"))))))
+
+
 (add-hook 'sql-interactive-mode-hook
           (lambda () (toggle-truncate-lines t)))
 
