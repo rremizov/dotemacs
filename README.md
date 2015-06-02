@@ -46,6 +46,7 @@ Plugins.
 *	[projectile][projectile]
 *	[rich-minority][rich-minority]
 *	[s][s]
+*	[semantic-stickyfunc-enhance][semantic-stickyfunc-enhance]
 *	[smart-mode-line][smart-mode-line]
 *	[solarized][solarized]
 *	[tern][tern]
@@ -155,6 +156,7 @@ To remove a submodule you need to:
 [rich-minority]: https://github.com/Bruce-Connor/rich-minority.git
 [s]: https://github.com/magnars/s.el.git
 [sbcl]: http://www.sbcl.org/
+[semantic-stickyfunc-enhance]: https://github.com/tuhdo/semantic-stickyfunc-enhance.git
 [slime]: http://common-lisp.net/project/slime/
 [smart-mode-line]: https://github.com/Bruce-Connor/smart-mode-line.git
 [solarized]: https://github.com/sellout/emacs-color-theme-solarized

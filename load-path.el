@@ -53,6 +53,7 @@
       "markdown-mode"
       "peep-dired"
       "projectile"
+      "semantic-stickyfunc-enhance"
       "smart-mode-line"
       "tern/emacs"
       "twittering-mode"

@@ -130,3 +130,6 @@
 [submodule "bundle/peep-dired"]
 	path = bundle/peep-dired
 	url = https://github.com/asok/peep-dired.git
+[submodule "bundle/semantic-stickyfunc-enhance"]
+	path = bundle/semantic-stickyfunc-enhance
+	url = https://github.com/tuhdo/semantic-stickyfunc-enhance.git
