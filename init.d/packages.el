@@ -18,7 +18,9 @@
 
 ;;; Install
 (defvar default-packages
-  '(wanderlust)
+  '(edbi
+    edbi-django
+    wanderlust)
   "A list of packages to ensure are installed at launch.")
 
 (defun packages-installed-p ()
