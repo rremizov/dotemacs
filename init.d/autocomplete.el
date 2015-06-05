@@ -117,7 +117,7 @@
                              "show"))))
 
    ;; provide branch completion for the command `checkout'.
-   ((pcomplete-match (regexp-opt '("checkout" "branch")) 1)
+   ((pcomplete-match (regexp-opt '("checkout" "branch" "merge")) 1)
     (pcomplete-here* (pcmpl-git-get-refs "heads")))))
 
 
