@@ -67,8 +67,9 @@
 (eyebrowse-mode t)
 
 
-;; Peep-dired
+;; Dired
 (require 'peep-dired)
+(setq dired-dwim-target t)
 
 ;;; core.el ends here
 
