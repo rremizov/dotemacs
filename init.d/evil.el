@@ -19,9 +19,11 @@
 ;; Default evil-modes
 (loop
  for (mode . state)
- in '((term-mode . emacs)
+ in '((cider-repl-mode . emacs)
+      (cider-stacktrace-mode . emacs)
       (dired-mode . emacs)
-      (eshell-mode . emacs))
+      (eshell-mode . emacs)
+      (term-mode . emacs))
  do (evil-set-initial-state mode state))
 
 

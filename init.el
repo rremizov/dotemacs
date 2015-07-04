@@ -44,6 +44,7 @@
       "modeline"
       "packages"
 
+      "clojure"
       "magit"
       "markdown-mode"
       "multi-term"

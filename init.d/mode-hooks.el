@@ -40,7 +40,14 @@
             (modify-syntax-entry ?_ "w")))
 
 
+;; Cider
+(add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
+
+
 ;; Paredit mode
+(add-hook 'cider-repl-mode-hook 'paredit-mode)
+(add-hook 'clojure-mode-hook 'enable-paredit-mode)
+(add-hook 'clojure-mode-hook 'subword-mode)
 (add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
 (add-hook 'eval-expression-minibuffer-setup-hook #'enable-paredit-mode)
 (add-hook 'ielm-mode-hook #'enable-paredit-mode)
