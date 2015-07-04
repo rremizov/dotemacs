@@ -18,8 +18,12 @@
 
 ;;; Install
 (defvar default-packages
-  '(edbi
+  '(cider
+    clojure-mode
+    clojure-mode-extra-font-locking
+    edbi
     edbi-django
+    rainbow-delimiters
     wanderlust)
   "A list of packages to ensure are installed at launch.")
 
