@@ -24,6 +24,7 @@
     edbi
     edbi-django
     rainbow-delimiters
+    ranger
     wanderlust)
   "A list of packages to ensure are installed at launch.")
 
