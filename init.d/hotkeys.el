@@ -107,5 +107,9 @@
 ;; Csscomb
 (define-key evil-normal-state-map (kbd "<f7>") 'csscomb)
 
+
+;; Django
+(evil-leader/set-key (kbd "dj") 'helm-django-manage)
+
 ;;; hotkeys.el ends here
 

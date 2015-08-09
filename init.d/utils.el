@@ -6,6 +6,13 @@
 
 ;;; Code:
 
+(defun run-in-eshell (command)
+  "Run COMMAND in eshell."
+  (with-current-buffer (pop-to-buffer (eshell))
+    (eshell-return-to-prompt)
+    (insert command)))
+
+
 (defun do-if (exp callback)
   "Check, whether EXP is true.  If it is, pass it into CALLBACK."
 

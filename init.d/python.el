@@ -81,5 +81,43 @@
                  "*Django-Management*"
                  "*Django-Management*"))
 
+
+(defun helm-django-manage-action (command)
+  (run-in-eshell (concat "python " (locate-django-manage) " " command)))
+
+
+(defun helm-django-management-sources ()
+  "Parse alist of Django management command."
+  (when (locate-django-manage)
+    (let ((output
+           (shell-command-to-string (concat "python " (locate-django-manage)))))
+      (mapcar
+       (lambda (x) (list `(name . ,(car x))
+                    `(candidates . ,(cdr x))
+                    `(action . (("Run in eshell" . helm-django-manage-action)))))
+
+       (reduce
+        (lambda (acc x)
+          (if (string-match "^\\[.+\\]$" x)
+              (append acc (list (list x)))
+            (append
+             (butlast acc)
+             (list (append (car (last acc)) (list x))))))
+
+        (remove-if
+         (lambda (x) (string= "" x))
+         (mapcar (lambda (s) (replace-regexp-in-string "^\s+" "" s))
+                 (split-string
+                  (substring output (string-match "^\\[.+\\]$" output))
+                  "\n")))
+        :initial-value '())))))
+
+
+(defun helm-django-manage ()
+  "Run django management command via helm."
+  (interactive)
+  (helm :buffer "*helm-django-management*"
+        :sources (helm-django-management-sources)))
+
 ;;; python.el ends here
 
