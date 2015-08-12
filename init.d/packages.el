@@ -23,6 +23,7 @@
     clojure-mode-extra-font-locking
     edbi
     edbi-django
+    hydra
     rainbow-delimiters
     ranger
     wanderlust)

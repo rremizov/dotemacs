@@ -45,6 +45,7 @@
       "packages"
 
       "clojure"
+      "hydra"
       "magit"
       "markdown-mode"
       "multi-term"
