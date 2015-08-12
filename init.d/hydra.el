@@ -23,17 +23,18 @@
   ("l" text-scale-decrease "out"))
 
 (defhydra hydra-git-gutter (:hint nil)
-"
+  "
 Git gutter:
-  _>_: next hunk        _s_tage hunk
-  _<_: previous hunk    _r_evert hunk
-  ^ ^                   _c_ommit hunk
+  _,_: next hunk        _s_tage hunk
+  _._: previous hunk    _r_evert hunk
+  _l_: recenter         _c_ommit hunk
 "
-  ("<" git-gutter+-previous-hunk)
-  (">" git-gutter+-next-hunk)
+  ("," git-gutter+-previous-hunk)
+  ("." git-gutter+-next-hunk)
   ("c" git-gutter+-commit)
   ("r" git-gutter+-revert-hunks)
-  ("s" git-gutter+-stage-hunks))
+  ("s" git-gutter+-stage-hunks)
+  ("l" recenter-top-bottom))
 (eval-after-load 'git-gutter+
   '(progn
      (evil-leader/set-key (kbd "<")  #'hydra-git-gutter/git-gutter+-previous-hunk)
