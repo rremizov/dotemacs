@@ -64,4 +64,12 @@
 (add-hook 'lisp-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'python-mode-hook #'rainbow-delimiters-mode)
 
+
+;; Origami
+(add-hook 'clojure-mode-hook 'origami-mode)
+(add-hook 'emacs-lisp-mode-hook 'origami-mode)
+(add-hook 'lisp-mode-hook 'origami-mode)
+(add-hook 'python-mode-hook 'origami-mode)
+(add-hook 'js-mode-hook 'origami-mode)
+
 ;;; mode-hooks.el ends here

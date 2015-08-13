@@ -22,6 +22,7 @@
   ("g" text-scale-increase "in")
   ("l" text-scale-decrease "out"))
 
+
 (defhydra hydra-git-gutter (:hint nil)
   "
 Git gutter:
@@ -42,6 +43,21 @@ Git gutter:
      (evil-leader/set-key (kbd "gc") #'hydra-git-gutter/git-gutter+-commit)
      (evil-leader/set-key (kbd "hr") #'hydra-git-gutter/git-gutter+-revert-hunks)
      (evil-leader/set-key (kbd "hs") #'hydra-git-gutter/git-gutter+-stage-hunks)))
+
+
+(evil-leader/set-key
+  (kbd "f")
+  (defhydra hydra-folding (:hint nil)
+    "
+  _o_pen node    _n_ext fold       toggle _r_ecursively
+  _c_lose node   _p_revious fold   toggle _a_ll
+  "
+    ("o" origami-open-node)
+    ("c" origami-close-node)
+    ("n" origami-next-fold)
+    ("p" origami-previous-fold)
+    ("r" origami-recursively-toggle-node)
+    ("a" origami-toggle-all-nodes)))
 
 ;;; hydra.el ends here
 

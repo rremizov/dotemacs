@@ -24,6 +24,7 @@
     edbi
     edbi-django
     hydra
+    origami
     rainbow-delimiters
     ranger
     wanderlust)
