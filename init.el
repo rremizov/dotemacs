@@ -37,12 +37,12 @@
       "browse-url"
       "clipboard"
       "core"
+      "packages"
       "custom"
       "hotkeys"
       "linum-off"
       "mode-hooks"
       "modeline"
-      "packages"
 
       "clojure"
       "hydra"

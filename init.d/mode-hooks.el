@@ -66,6 +66,7 @@
 
 
 ;; Origami
+(require 'origami)
 (add-hook 'clojure-mode-hook 'origami-mode)
 (add-hook 'emacs-lisp-mode-hook 'origami-mode)
 (add-hook 'lisp-mode-hook 'origami-mode)
@@ -73,3 +74,4 @@
 (add-hook 'js-mode-hook 'origami-mode)
 
 ;;; mode-hooks.el ends here
+
