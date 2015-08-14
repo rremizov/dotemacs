@@ -111,5 +111,11 @@
 ;; Django
 (evil-leader/set-key (kbd "dj") 'helm-django-manage)
 
+
+;; Folding
+(define-key evil-normal-state-map (kbd "za") 'origami-toggle-node)
+(define-key evil-normal-state-map (kbd "zM") 'origami-close-all-nodes)
+(define-key evil-normal-state-map (kbd "zR") 'origami-open-all-nodes)
+
 ;;; hotkeys.el ends here
 
