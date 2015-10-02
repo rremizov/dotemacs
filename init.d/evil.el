@@ -23,6 +23,7 @@
       (cider-stacktrace-mode . emacs)
       (dired-mode . emacs)
       (eshell-mode . emacs)
+      (helm-grep-mode . emacs)
       (term-mode . emacs))
  do (evil-set-initial-state mode state))
 
