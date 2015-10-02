@@ -2,6 +2,10 @@
 
 set -e
 
+pushd ./bundle/evil/
+make
+popd
+
 pushd ./bundle/helm/
 make
 popd
