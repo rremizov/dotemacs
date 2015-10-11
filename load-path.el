@@ -27,6 +27,7 @@
       "s.el"
 
       "ac-anaconda"
+      "ac-cider"
       "ace-jump-mode"
       "anaconda-mode"
       "auto-complete"

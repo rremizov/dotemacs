@@ -130,3 +130,6 @@
 [submodule "bundle/semantic-stickyfunc-enhance"]
 	path = bundle/semantic-stickyfunc-enhance
 	url = https://github.com/tuhdo/semantic-stickyfunc-enhance.git
+[submodule "bundle/ac-cider"]
+	path = bundle/ac-cider
+	url = https://github.com/clojure-emacs/ac-cider.git

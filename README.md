@@ -6,6 +6,7 @@ Plugins.
 --------
 
 *	[ac-anaconda][ac-anaconda]
+*	[ac-cider][ac-cider]
 *	[ace-jump-mode][ace-jump-mode]
 *	[anaconda-mode][anaconda-mode]
 *	[async][async]
@@ -112,6 +113,7 @@ To remove a submodule you need to:
 
 
 [ac-anaconda]: https://github.com/proofit404/ac-anaconda.git
+[ac-cider]: https://github.com/clojure-emacs/ac-cider.git
 [ace-jump-mode]: https://github.com/winterTTr/ace-jump-mode.git
 [anaconda-mode]: https://github.com/proofit404/anaconda-mode.git
 [anonymous-pro]: http://www.marksimonson.com/fonts/view/anonymous-pro

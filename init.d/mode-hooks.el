@@ -41,8 +41,16 @@
 
 
 ;; Clojure & Cider
-(add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
+(require 'ac-cider)
 (add-hook 'clojure-mode-hook 'subword-mode)
+(add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
+(add-hook 'cider-mode-hook 'ac-flyspell-workaround)
+(add-hook 'cider-mode-hook 'ac-cider-setup)
+(add-hook 'cider-repl-mode-hook 'ac-cider-setup)
+(eval-after-load "auto-complete"
+  '(progn
+     (add-to-list 'ac-modes 'cider-mode)
+     (add-to-list 'ac-modes 'cider-repl-mode)))
 
 
 ;; Paredit mode
