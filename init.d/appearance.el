@@ -26,6 +26,7 @@
 
 ;; Font and it's size
 (set-face-attribute 'default nil :font "Anonymous Pro" :height 120)
+(setq-default line-spacing 2)
 
 ;; Highlight current line
 (global-hl-line-mode 1)
