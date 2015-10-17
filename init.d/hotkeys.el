@@ -12,6 +12,8 @@
 (evil-leader/set-leader ",")
 (setq evil-leader/in-all-states 1)
 
+;; Proced
+(global-set-key (kbd "C-x p") 'proced)
 
 ;; Helm
 (define-key evil-normal-state-map " " 'helm-mini)
