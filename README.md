@@ -114,6 +114,7 @@ How to configure Golang environment
     echo "export PATH=\$PATH:\$GOROOT/bin:\$GOPATH/bin" >> ~/.bashrc
     go get -u github.com/nsf/gocode
     go get -u github.com/dougm/goflymake
+    go get -u github.com/rogpeppe/godef
 
 
 To remove a submodule you need to:
