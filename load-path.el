@@ -44,6 +44,7 @@
       "git-gutter-fringe-plus"
       "git-gutter-plus"
       "git-timemachine"
+      "gocode/emacs"
       "golden-ratio"
       "helm"
       "helm-descbinds"
@@ -69,6 +70,8 @@
     (lambda (name) (concat "~/.emacs.d/bundle/" name))
     '("zenburn"
       "solarized")))
+
+(add-to-list 'load-path "~/golang/src/github.com/dougm/goflymake")
 
 ;;; load-path.el ends here
 

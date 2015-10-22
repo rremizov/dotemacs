@@ -19,6 +19,10 @@
 (setq python-shell-virtualenv-path (getenv "VIRTUAL_ENV"))
 
 
+;; Golang
+(require 'go-autocomplete)
+
+
 ;; Javascript
 (require 'tern)
 (require 'tern-auto-complete)

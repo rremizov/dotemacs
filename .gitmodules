@@ -133,3 +133,6 @@
 [submodule "bundle/ac-cider"]
 	path = bundle/ac-cider
 	url = https://github.com/clojure-emacs/ac-cider.git
+[submodule "bundle/gocode"]
+	path = bundle/gocode
+	url = https://github.com/nsf/gocode.git

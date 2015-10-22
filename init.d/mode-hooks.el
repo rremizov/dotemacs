@@ -40,6 +40,16 @@
             (modify-syntax-entry ?_ "w")))
 
 
+;; Golang
+;; (add-hook 'go-mode-hook 'go-eldoc-setup)
+(add-hook 'go-mode-hook
+          (lambda ()
+            (go-eldoc-setup)
+            (setq indent-tabs-mode t)
+            (setq tab-width 4)
+            (setq evil-shift-width 4)))
+
+
 ;; Clojure & Cider
 (require 'ac-cider)
 (add-hook 'clojure-mode-hook 'subword-mode)

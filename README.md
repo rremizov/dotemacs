@@ -30,6 +30,7 @@ Plugins.
 *	[git-gutter-fringe-plus][git-gutter-fringe-plus]
 *	[git-gutter-plus][fringe-helper.el]
 *	[git-modes][git-modes]
+*	[gocode][gocode]
 *	[golden-ratio][golden-ratio]
 *	[helm-descbinds][helm-descbinds]
 *	[helm-flycheck][helm-flycheck]
@@ -74,7 +75,7 @@ Installation.
 
 
 How to setup and configure Common Lisp environment
-===========================================
+==================================================
 _using Emacs + SLIME and Steel Bank CL._
 
 __Install and configure Emacs__
@@ -98,6 +99,21 @@ __Go into Lisp shell, load `SLIME`__
 
 	sbcl
 	(ql:quickload "quicklisp-slime-helper")
+
+
+How to configure Golang environment
+===================================
+
+    wget -O /tmp/golang.tar.gz https://storage.googleapis.com/golang/go1.5.1.linux-386.tar.gz
+    cd ~
+    tar xvzf /tmp/golang.tar.gz
+    mv go goroot
+    mkdir -p ~/golang/bin
+    echo "export GOROOT=~/goroot" >> ~/.bashrc
+    echo "export GOPATH=~/golang" >> ~/.bashrc
+    echo "export PATH=\$PATH:\$GOROOT/bin:\$GOPATH/bin" >> ~/.bashrc
+    go get -u github.com/nsf/gocode
+    go get -u github.com/dougm/goflymake
 
 
 To remove a submodule you need to:
@@ -138,6 +154,7 @@ To remove a submodule you need to:
 [git-gutter-fringe-plus]: https://github.com/nonsequitur/git-gutter-fringe-plus.git
 [git-gutter-plus]: https://github.com/nonsequitur/git-gutter-plus.git
 [git-modes]: https://github.com/magit/git-modes.git
+[gocode]: https://github.com/nsf/gocode.git
 [golden-ratio]: https://github.com/roman/golden-ratio.el.git
 [helm-descbinds]: https://github.com/emacs-helm/helm-descbinds.git
 [helm-flycheck]: https://github.com/yasuyk/helm-flycheck.git

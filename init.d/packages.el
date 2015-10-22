@@ -23,6 +23,8 @@
     clojure-mode-extra-font-locking
     edbi
     edbi-django
+    go-eldoc
+    go-mode
     hydra
     origami
     rainbow-delimiters
