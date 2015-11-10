@@ -46,6 +46,8 @@
       scroll-preserve-screen-position 1
       scroll-step 1)
 
+;; Eshell
+(setq eshell-scroll-to-bottom-on-input t)
 
 ;; Undo tree
 (require 'undo-tree)
