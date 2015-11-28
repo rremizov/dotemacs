@@ -19,7 +19,7 @@
 
 
 ;; Maximize frame on startup
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+; (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 
 ;; Create a reasonable title bar

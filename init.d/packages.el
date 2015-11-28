@@ -21,6 +21,8 @@
   '(cider
     clojure-mode
     clojure-mode-extra-font-locking
+    dired-narrow
+    dired-subtree
     edbi
     edbi-django
     go-eldoc
