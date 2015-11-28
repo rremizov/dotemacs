@@ -17,6 +17,11 @@
                       '(menu-bar-mode nil)    ;; Hide menu bar
                       '(tool-bar-mode nil))   ;; Hide toolbar
 
+
+;; Maximize frame on startup
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+
 ;; Create a reasonable title bar
 (add-hook 'window-configuration-change-hook
           (lambda ()
