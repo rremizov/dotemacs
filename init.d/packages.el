@@ -28,6 +28,7 @@
     go-eldoc
     go-mode
     hydra
+    lua-mode
     origami
     rainbow-delimiters
     ranger
