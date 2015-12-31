@@ -46,6 +46,7 @@
 
       "clojure"
       "hydra"
+      "indent-sql"
       "magit"
       "markdown-mode"
       "multi-term"

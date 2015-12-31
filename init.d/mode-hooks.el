@@ -20,6 +20,12 @@
 ;;               (turn-on-auto-fill))))
 
 
+(add-hook 'sql-mode-hook
+          (lambda ()
+            (setq tab-width 4)
+            (setq evil-shift-width 4)))
+
+
 (add-hook 'lisp-mode-hook
           (lambda ()
             (set (make-local-variable lisp-indent-function)
