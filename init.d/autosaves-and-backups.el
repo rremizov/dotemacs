@@ -1,3 +1,10 @@
+;;; package --- Summary:
+
+;;; Commentary:
+
+;;; Code:
+
+
 ;; Interval and timeout
 (setq auto-save-interval 5
       auto-save-timeout 5)
@@ -48,9 +55,11 @@
 
 
 ;; Save on interval
-(add-hook
-  'auto-save-hook
-  (lambda ()
-    (interactive)
-    (save-some-buffers t)))
+;; (add-hook
+;;   'auto-save-hook
+;;   (lambda ()
+;;     (interactive)
+;;     (save-some-buffers t)))
+
+;;; autosaves-and-backups.el ends here
 
