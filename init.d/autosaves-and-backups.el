@@ -4,6 +4,9 @@
 
 ;;; Code:
 
+(eval-after-load 'git-timemachine
+  '(progn (super-save-mode +1)))
+
 
 ;; Interval and timeout
 (setq auto-save-interval 5
@@ -47,11 +50,11 @@
 
 
 ;; Save on focus out
-(add-hook
-  'focus-out-hook
-  (lambda ()
-    (interactive)
-    (save-some-buffers t)))
+;; (add-hook
+;;   'focus-out-hook
+;;   (lambda ()
+;;     (interactive)
+;;     (save-some-buffers t)))
 
 
 ;; Save on interval
