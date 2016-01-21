@@ -33,7 +33,8 @@
     rainbow-delimiters
     ranger
     super-save
-    wanderlust)
+    wanderlust
+    yaml-mode)
   "A list of packages to ensure are installed at launch.")
 
 (defun packages-installed-p ()
