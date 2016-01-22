@@ -32,6 +32,12 @@
                  'common-lisp-indent-function)))
 
 
+(add-hook 'yaml-mode-hook
+          (lambda ()
+            (setq tab-width 2)
+            (setq evil-shift-width 2)))
+
+
 (add-hook 'ruby-mode-hook
           (lambda ()
             (setq tab-width 2)
