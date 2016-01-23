@@ -64,5 +64,17 @@
 ;;     (interactive)
 ;;     (save-some-buffers t)))
 
+;; Auto-save
+(defun save-all-advice (orig-fun &rest args)
+  (interactive)
+  (save-some-buffers t)
+  (apply orig-fun args))
+
+(advice-add 'evil-window-next :before #'super-save-command-advice)
+(advice-add 'other-window :before #'super-save-command-advice)
+(advice-add 'helm-mini :around #'save-all-advice)
+(advice-add 'helm-M-x :around #'save-all-advice)
+(advice-add 'helm-projectile :around #'save-all-advice)
+
 ;;; autosaves-and-backups.el ends here
 
