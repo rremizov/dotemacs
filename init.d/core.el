@@ -50,9 +50,9 @@
 (setq eshell-scroll-to-bottom-on-input t)
 
 ;; Undo tree
-(require 'undo-tree)
-(global-undo-tree-mode 1)
-(defalias 'redo 'undo-tree-redo)
+; (require 'undo-tree)
+; (global-undo-tree-mode 1)
+; (defalias 'redo 'undo-tree-redo)
 
 
 ;; Matchit

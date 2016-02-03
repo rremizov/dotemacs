@@ -58,8 +58,8 @@
       "semantic-stickyfunc-enhance"
       "smart-mode-line"
       "tern/emacs"
-      "twittering-mode"
-      "undo-tree")))
+      "twittering-mode")))
+      ; "undo-tree"
       ; "color-theme"
       ; "solarized"
 

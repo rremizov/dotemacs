@@ -24,9 +24,7 @@
  '(recentf-save-file "~/.emacs.d/local/recentf")
  '(require-final-newline t)
  '(scroll-bar-mode nil)
- '(tool-bar-mode nil)
- '(undo-tree-auto-save-history t)
- '(undo-tree-history-directory-alist (quote (("" . "~/.emacs.d/local/undo/")))))
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
