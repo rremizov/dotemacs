@@ -4,10 +4,13 @@
 ;;; Commentary:
 
 
-;;;Code:
+;;; Code:
 
 (require 'discover-my-major)
 (require 'golden-ratio)
+
+;; GPG
+(require 'epa-file)
 
 ;; Relative line numbering
 (require 'linum-relative)
