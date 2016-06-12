@@ -67,7 +67,7 @@
 ;; Clojure & Cider
 (require 'ac-cider)
 (add-hook 'clojure-mode-hook 'subword-mode)
-(add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
+(add-hook 'cider-mode-hook 'eldoc-mode)
 (add-hook 'cider-mode-hook 'ac-flyspell-workaround)
 (add-hook 'cider-mode-hook 'ac-cider-setup)
 (add-hook 'cider-repl-mode-hook 'ac-cider-setup)
