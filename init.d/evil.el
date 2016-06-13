@@ -19,7 +19,8 @@
 ;; Default evil-modes
 (loop
  for (mode . state)
- in '((cider-repl-mode . emacs)
+ in '((cider-docview-mode . emacs)
+	  (cider-repl-mode . emacs)
       (cider-stacktrace-mode . emacs)
       (cider-test-report-mode . emacs)
       (dired-mode . emacs)
