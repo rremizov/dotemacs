@@ -21,6 +21,7 @@
  for (mode . state)
  in '((cider-repl-mode . emacs)
       (cider-stacktrace-mode . emacs)
+      (cider-test-report-mode . emacs)
       (dired-mode . emacs)
       (eshell-mode . emacs)
       (helm-grep-mode . emacs)
