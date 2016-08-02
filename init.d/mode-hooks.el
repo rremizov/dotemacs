@@ -89,6 +89,11 @@
 (add-hook 'slime-repl-mode-hook (lambda () (paredit-mode +1)))
 
 
+;; Rainbow mode
+(add-hook 'css-mode-hook #'rainbow-mode)
+(add-hook 'less-mode-hook #'rainbow-mode)
+
+
 ;; Rainbow delimiters
 (add-hook 'cider-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)

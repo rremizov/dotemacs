@@ -34,6 +34,7 @@
     lua-mode
     origami
     rainbow-delimiters
+    rainbow-mode
     ranger
     super-save
     wanderlust
