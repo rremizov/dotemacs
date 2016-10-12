@@ -30,10 +30,10 @@
       calendar-date-style 'iso)
 
 ;; Semantic mode
-(add-to-list 'semantic-default-submodes 'global-semantic-stickyfunc-mode)
-(semantic-mode 1)
-(setq semanticdb-default-save-directory "~/.emacs.d/local/semanticdb")
-(require 'stickyfunc-enhance)
+;; (add-to-list 'semantic-default-submodes 'global-semantic-stickyfunc-mode)
+;; (semantic-mode 1)
+;; (setq semanticdb-default-save-directory "~/.emacs.d/local/semanticdb")
+;; (require 'stickyfunc-enhance)
 
 ;; Bookmarks
 (setq bookmark-default-file "~/.emacs.d/local/bookmarks"
