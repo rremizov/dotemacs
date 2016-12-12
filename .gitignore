@@ -1,4 +1,5 @@
-.emacs.desktop.lock
 .emacs.desktop
+.emacs.desktop.lock
 elpa/
 local/
+org-clock-save.el
