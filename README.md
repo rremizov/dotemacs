@@ -74,6 +74,13 @@ Installation.
 	./init
 
 
+__Anaconda__
+
+    pip install -t ~/.emacs.d/bundle/anaconda-mode/ service-factory==0.1.2
+    pip install -t ~/.emacs.d/bundle/anaconda-mode/ six==1.9.0
+    pip install -t ~/.emacs.d/bundle/anaconda-mode/ jedi==0.9.0
+
+
 How to setup and configure Common Lisp environment
 ==================================================
 _using Emacs + SLIME and Steel Bank CL._
