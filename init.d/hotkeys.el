@@ -106,8 +106,14 @@
 (define-key evil-normal-state-map (kbd "gT") 'eyebrowse-prev-window-config)
 
 
-;; Csscomb
-(define-key evil-normal-state-map (kbd "<f7>") 'csscomb)
+;; Css
+(defun add-css-hotkeys ()
+  (local-set-key (kbd "<f7>") 'csscomb))
+
+
+;; Python yapf and isort
+(defun add-python-hotkeys ()
+  (local-set-key (kbd "<f7>") (lambda () (interactive) (yapf) (isort))))
 
 
 ;; Django

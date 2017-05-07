@@ -64,6 +64,12 @@
             (setq evil-shift-width 4)))
 
 
+;; Hotkeys
+(add-hook 'python-mode-hook 'add-python-hotkeys)
+(add-hook 'css-mode-hook 'add-css-hotkeys)
+(add-hook 'less-mode-hook 'add-css-hotkeys)
+
+
 ;; Clojure & Cider
 (require 'ac-cider)
 (add-hook 'clojure-mode-hook 'subword-mode)

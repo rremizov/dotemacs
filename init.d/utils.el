@@ -29,8 +29,16 @@
 (defun csscomb ()
   "Pass current buffer into csscomb."
   (interactive)
-
   (shell-command (concat "csscomb " buffer-file-name)))
 
-;;; utils.el ends here
+(defun yapf ()
+  "Pass current buffer into yapf."
+  (interactive)
+  (shell-command (concat "yapf --in-place " buffer-file-name)))
 
+(defun isort ()
+  "Pass current buffer into yapf."
+  (interactive)
+  (shell-command (concat "isort " buffer-file-name)))
+
+;;; utils.el ends here
