@@ -32,6 +32,13 @@
                  'common-lisp-indent-function)))
 
 
+(add-hook 'html-mode-hook
+          (lambda ()
+            (setq sgml-basic-offset 4)
+            (setq tab-width 4)
+            (setq evil-shift-width 4)))
+
+
 (add-hook 'yaml-mode-hook
           (lambda ()
             (setq tab-width 2)
