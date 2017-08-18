@@ -36,6 +36,7 @@
     rainbow-delimiters
     rainbow-mode
     ranger
+    scss-mode
     super-save
     wanderlust
     yaml-mode)

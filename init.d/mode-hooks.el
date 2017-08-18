@@ -39,6 +39,13 @@
             (setq evil-shift-width 4)))
 
 
+(add-hook 'scss-mode-hook
+          (lambda ()
+            (setq scss-compile-at-save nil)
+            (setq tab-width 2)
+            (setq evil-shift-width 2)))
+
+
 (add-hook 'yaml-mode-hook
           (lambda ()
             (setq tab-width 2)
