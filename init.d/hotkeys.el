@@ -113,7 +113,8 @@
 
 ;; Python yapf and isort
 (defun add-python-hotkeys ()
-  (local-set-key (kbd "<f7>") (lambda () (interactive) (yapf) (isort))))
+  (local-set-key (kbd "<f7>") (lambda () (interactive) (yapf) (isort)))
+  (local-set-key (kbd "<f8>") (lambda () (interactive) (isort))))
 
 
 ;; Django
