@@ -12,7 +12,7 @@
 ;;              '("melpa" . "http://melpa.org/packages/") t)
 
 (add-to-list 'package-archives
-             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 
 (when (< emacs-major-version 24)
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
@@ -28,6 +28,8 @@
     dired-subtree
     edbi
     edbi-django
+    flycheck
+    flycheck-mypy
     go-eldoc
     go-mode
     hydra
