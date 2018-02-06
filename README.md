@@ -25,7 +25,6 @@ Plugins.
 *	[evil][evil]
 *	[eyebrowse][eyebrowse]
 *	[f.el][f.el]
-*	[flycheck][flycheck]
 *	[fringe-helper.el][fringe-helper.el]
 *	[git-gutter-fringe-plus][git-gutter-fringe-plus]
 *	[git-gutter-plus][fringe-helper.el]
