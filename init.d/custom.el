@@ -21,6 +21,7 @@
  '(flycheck-temp-prefix ".flycheck")
  '(image-dired-dir "~/.emacs.d/local/image-dired")
  '(menu-bar-mode nil)
+ '(org-lowest-priority 69)
  '(projectile-known-projects-file "/home/enlighter/.emacs.d/local/projectile-bookmarks.eld")
  '(recentf-save-file "~/.emacs.d/local/recentf")
  '(require-final-newline t)
