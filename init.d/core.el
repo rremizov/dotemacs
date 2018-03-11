@@ -25,6 +25,9 @@
 ;; Delete trailing whitespaces before saving
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+;; System locale to use for formatting time values.
+(setq system-time-locale "C")
+
 ;; Calendar
 (setq calendar-week-start-day 1
       calendar-date-style 'iso)

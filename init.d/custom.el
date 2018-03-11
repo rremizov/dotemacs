@@ -21,6 +21,18 @@
  '(flycheck-temp-prefix ".flycheck")
  '(image-dired-dir "~/.emacs.d/local/image-dired")
  '(menu-bar-mode nil)
+ '(org-agenda-custom-commands
+   (quote
+    (("cx" "Now" tags-todo "SCHEDULED<=\"<now>\""
+      ((org-agenda-overriding-header "Now")
+       (org-agenda-view-columns-initially t)
+       (org-agenda-overriding-columns-format "%50ITEM %PRIORITY %SCHEDULED %TODO")
+       (org-agenda-sorting-strategy
+        (quote
+         (priority-down user-defined-up)))
+       (org-agenda-cmp-user-defined
+        (cmp-date-property "SCHEDULED")))))))
+ '(org-agenda-files (quote ("~/org")))
  '(org-lowest-priority 69)
  '(projectile-known-projects-file "/home/enlighter/.emacs.d/local/projectile-bookmarks.eld")
  '(recentf-save-file "~/.emacs.d/local/recentf")
