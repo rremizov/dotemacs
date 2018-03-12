@@ -18,6 +18,7 @@
  '(eshell-history-file-name "/home/enlighter/.emacs.d/local/eshell/history")
  '(eyebrowse-new-workspace t)
  '(eyebrowse-wrap-around t)
+ '(flycheck-python-mypy-args (quote ("--ignore-missing-imports" "--strict-optional")))
  '(flycheck-temp-prefix ".flycheck")
  '(image-dired-dir "~/.emacs.d/local/image-dired")
  '(menu-bar-mode nil)
