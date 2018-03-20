@@ -8,9 +8,6 @@
 
 (require 'package)
 
-;; (add-to-list 'package-archives
-;;              '("melpa" . "http://melpa.org/packages/") t)
-
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 
@@ -41,6 +38,7 @@
     scss-mode
     super-save
     wanderlust
+    web-mode
     yaml-mode)
   "A list of packages to ensure are installed at launch.")
 
