@@ -21,3 +21,7 @@ are equal return t."
            )
       (if (eq cmp t) nil (signum cmp))
       ))))
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages '((sh . t)
+                             (python . t)))
