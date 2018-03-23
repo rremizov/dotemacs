@@ -10,6 +10,7 @@
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.lua\\'" . lua-mode))
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.eco\\'" . web-mode))
 (add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
 
 (setq-default indent-tabs-mode nil)
