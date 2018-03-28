@@ -21,6 +21,7 @@
   '(cider
     clojure-mode
     clojure-mode-extra-font-locking
+    coffee-mode
     dired-narrow
     dired-subtree
     edbi
