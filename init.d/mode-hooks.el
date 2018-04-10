@@ -15,6 +15,8 @@
 
 (setq-default indent-tabs-mode nil)
 
+(add-hook 'org-mode-hook #'visual-line-mode)
+
 ;; (add-hook 'text-mode-hook
 ;;           (lambda ()
 ;;             (setq indent-tabs-mode t)
