@@ -18,5 +18,9 @@
 (add-to-list 'projectile-other-file-alist '("less" "js" "jsx" "css"))
 (add-to-list 'projectile-other-file-alist '("css" "js" "jsx" "less"))
 
+(add-to-list 'projectile-other-file-alist '("ts" "html" "css"))
+(add-to-list 'projectile-other-file-alist '("html" "css" "ts"))
+(add-to-list 'projectile-other-file-alist '("css" "ts" "html"))
+
 ;;; projectile.el ends here
 

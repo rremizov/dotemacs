@@ -38,6 +38,7 @@
     ranger
     scss-mode
     super-save
+    typescript-mode
     wanderlust
     web-mode
     yaml-mode)
