@@ -37,6 +37,7 @@
     rainbow-mode
     ranger
     scss-mode
+    solidity-mode
     super-save
     typescript-mode
     wanderlust
