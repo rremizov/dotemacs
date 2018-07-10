@@ -63,6 +63,15 @@
             (setq evil-shift-width 2)))
 
 
+(add-hook 'solidity-mode-hook
+          (lambda ()
+            (setq c-basic-offset 4)
+            (setq tab-width 4)
+            (setq evil-shift-width 4)
+            (c-set-offset 'arglist-intro '+)
+            (c-set-offset 'arglist-close 0)))
+
+
 ;; Treat underscore as a part of word
 (add-hook 'python-mode-hook
           (lambda ()
