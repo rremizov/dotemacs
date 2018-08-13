@@ -27,7 +27,7 @@
     (("cx" "Now" tags-todo "SCHEDULED<=\"<now>\""
       ((org-agenda-overriding-header "Now")
        (org-agenda-view-columns-initially t)
-       (org-agenda-overriding-columns-format "%50ITEM %PRIORITY %SCHEDULED %TODO")
+       (org-agenda-overriding-columns-format "%30ITEM %PRIORITY %SCHEDULED %TODO %6Effort(Estim){:}")
        (org-agenda-sorting-strategy
         (quote
          (priority-down user-defined-up)))
