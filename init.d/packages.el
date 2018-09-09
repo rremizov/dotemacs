@@ -28,6 +28,7 @@
     edbi-django
     flycheck
     flycheck-mypy
+    gnuplot-mode
     go-eldoc
     go-mode
     hydra
