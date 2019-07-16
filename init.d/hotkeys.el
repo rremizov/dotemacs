@@ -16,6 +16,7 @@
 (global-set-key (kbd "C-x p") 'proced)
 
 ;; Helm
+(global-unset-key (kbd "M-SPC"))
 (define-key evil-normal-state-map " " 'helm-mini)
 (define-key evil-normal-state-map (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
